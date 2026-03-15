@@ -74,6 +74,22 @@ color:#00e5ff;
 text-decoration:none;
 }
 
+
+
+footer{
+text-align:center;
+padding:40px;
+margin-top:80px;
+background:rgba(0,0,0,0.3);
+}
+
+footer a{
+color:#00e5ff;
+text-decoration:none;
+margin:0 10px;
+}
+
+
 /* MOBILE */
 
 @media(max-width:900px){
