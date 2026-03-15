@@ -68,6 +68,21 @@ margin-top:60px;
 font-size:40px;
 }
 
+
+
+.search-box{
+text-align:center;
+margin:30px;
+}
+
+.search-box input{
+padding:14px;
+width:320px;
+border-radius:30px;
+border:none;
+outline:none;
+}
+
 /* CONTENT */
 
 .content{
@@ -166,6 +181,10 @@ display:block;
 
 <h1 class="title">Latest Government Jobs</h1>
 
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Document Search.." onkeyup="searchJob()">
+</div>
+
 <div class="content">
 
 <div class="job">
@@ -243,6 +262,30 @@ display:block;
 
 function toggleMenu(){
 document.getElementById("menu").classList.toggle("show");
+}
+
+
+
+
+
+
+function searchJob(){
+
+let input=document.getElementById("searchInput").value.toLowerCase()
+
+let cards=document.querySelectorAll(".job")
+
+cards.forEach(card=>{
+
+let text=card.innerText.toLowerCase()
+
+if(text.includes(input)){
+card.style.display=""
+}else{
+card.style.display="none"
+}
+
+})
 }
 
 </script>
