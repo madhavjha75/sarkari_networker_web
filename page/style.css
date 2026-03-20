@@ -13,7 +13,7 @@ color:white;
 }
 
 /* NAVBAR */
-
+/* 
 .navbar{
 display:flex;
 justify-content:space-between;
@@ -37,7 +37,66 @@ font-size:14px;
 
 .menu a:hover{
 color:#00e5ff;
+} */
+
+
+
+
+navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+z-index:1000;
 }
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+}
+
+.menu a{
+margin:0 10px;
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#00e5ff;
+}
+
+.menu-btn{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+opacity:.8;
+}
+
 
 .menu-btn{
 display:none;

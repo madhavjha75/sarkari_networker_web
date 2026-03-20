@@ -151,7 +151,7 @@ margin:0 10px;
 /* MOBILE */
 
 @media(max-width:900px){
-
+/* 
 .menu{
 position:absolute;
 top:70px;
@@ -184,4 +184,27 @@ width:90%;
 .show{
 display:flex !important;
 }
+ */
 
+.menu{
+display:none;
+flex-direction:column;
+width:100%;
+background:#0f2027;
+margin-top:10px;
+}
+
+.menu a{
+padding:12px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.menu-btn{
+display:block;
+}
+
+.show{
+display:flex;
+}
+
+}
