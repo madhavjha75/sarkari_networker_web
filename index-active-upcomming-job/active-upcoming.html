@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarkari Networker : Latest Jobs, Result, Admit Card, Admission Updates</title>
+
+<meta name="description" content="Sarkari Network provides latest government job notifications, results, admit cards, admissions, answer keys and syllabus updates across India.">
+
+<meta name="keywords" content="latest job, sarkari result, admit card, government jobs, result, syllabus, admission, answer key">
+<link rel="canonical" href="https://www.sarkarinetworker.com/index.html">
+
+<meta name="author" content="Mausam Jha">
+<link rel="icon" href="favicon.png">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href=" style.css?v=6">
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">Sarkari Networker</div>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<div class="menu" id="menu">
+
+<a href="../index.html">Home</a>
+<a href="../latest1.html">Latest Jobs</a>
+<a href="../admitcard.html">Admit Card</a>
+<a href="../addmission.html">Admission</a>
+<a href="../result.html">Result</a>
+<a href="../syllabus.html">Syllabus</a>
+<a href="../answerkey.html">Answer Key</a>
+<a href="../intership.html">Internship</a>
+<a href="../newspaper.html">Newspaper</a>
+<a href="../course.html">Course</a>
+<a href="../document.html">Document</a>
+
+
+</div>
+
+</div>
+
+<section class="hero">
+
+<h1>Active & Upcoming Jobs</h1>
+
+<p>Find the latest active and upcoming government job opportunities across India.</p>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="active Job, upcoming Job..." onkeyup="searchCard()">
+</div>
+
+</section>
+
+<div class="container" id="cardContainer">
+
+<div class="card" onclick="location.href=''">
+<h3>Active Jobs</h3>
+<p>Check newest government job updates.</p>
+</div>
+
+<div class="card"  onclick="location.href='../latest1.html'">
+<h3>Upcoming Jobs</h3>
+<p>Stay updated with upcoming government job opportunities.</p>
+</div>
+
+
+
+</div>
+
+<footer>
+
+<p>© 2026 Sarkari Networker</p>
+
+<p>
+<a href="about.html">About</a>
+<a href="#">Contact</a>
+<a href="#">Privacy Policy</a>
+</p>
+
+<p>Website Created by Mausam Jha</p>
+
+
+
+
+
+
+<div class="social-icons">
+
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://whatsapp.com/channel/0029VbBWEqREVccIwxRwZ93"><i class="fa-brands fa-whatsapp"></i></a>
+
+</div>
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+function toggleMenu(){
+document.getElementById("menu").classList.toggle("show");
+}
+
+ function searchCard(){
+
+ let input=document.getElementById("searchInput").value.toLowerCase()
+
+ let cards=document.querySelectorAll(".card")
+
+ cards.forEach(card=>{
+
+ let text=card.innerText.toLowerCase()
+
+ if(text.includes(input)){
+ card.style.display=""
+ }else{
+ card.style.display="none"
+ }
+
+ })
+
+ }
+
+ </script>
+
+
+
+
+</body>
+</html>
+

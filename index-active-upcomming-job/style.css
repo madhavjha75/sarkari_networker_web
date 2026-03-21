@@ -1,0 +1,210 @@
+
+
+.social-icons{
+margin-top:15px;
+}
+
+.social-icons a{
+color:white;
+font-size:24px;
+margin:0 10px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#00e5ff;
+transform:scale(1.2);
+}
+
+
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+}
+
+.menu a{
+margin:0 10px;
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#00e5ff;
+}
+
+.menu-btn{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+opacity:.8;
+}
+
+/* SEARCH */
+
+.search-box{
+margin-top:25px;
+}
+
+.search-box input{
+padding:14px;
+width:320px;
+border-radius:30px;
+border:none;
+outline:none;
+}
+
+/* GRID */
+
+.container{
+width:90%;
+margin:auto;
+margin-top:60px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* CARD */
+
+.card{
+background:rgba(255,255,255,0.08);
+border-radius:15px;
+padding:30px;
+backdrop-filter:blur(12px);
+transition:.4s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,0.18);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+margin-top:80px;
+background:rgba(0,0,0,0.3);
+}
+
+footer a{
+color:#00e5ff;
+text-decoration:none;
+margin:0 10px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+/* 
+.menu{
+position:absolute;
+top:70px;
+left:0;
+width:100%;
+background:#0f2027;
+flex-direction:column;
+display:none;
+}
+
+.menu a{
+padding:15px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.menu-btn{
+display:block;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+.search-box input{
+width:90%;
+}
+
+}
+
+.show{
+display:flex !important;
+}
+ */
+
+.menu{
+display:none;
+flex-direction:column;
+width:100%;
+background:#0f2027;
+margin-top:10px;
+}
+
+.menu a{
+padding:12px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.menu-btn{
+display:block;
+}
+
+.show{
+display:flex;
+}
+
+}
