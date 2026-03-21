@@ -1,17 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Admission 2026 : College and University Admission Updates</title>
+<title>Latest Government Jobs 2026 : Sarkari Networker</title>
 
-<meta name="description" content="Get latest college and university admission notifications, entrance exams and admission updates 2026 on Sarkari Network.">
+<meta name="description" content="Check latest government job notifications 2026 including SSC, Railway, Bank, UPSC and state government vacancies on Sarkari Network.">
 
-<meta name="keywords" content="admission 2026, college admission, university admission, entrance exam admission">
-<link rel="stylesheet" href="style_1.css?v=4">
-<link rel="canonical" href="https://www.sarkarinetworker.com/newspaper.html">
+<meta name="keywords" content="latest government jobs, sarkari job 2026, railway job, bank job, ssc job">
+<link rel="stylesheet" href="style_1.css?v=2">
+<link rel="canonical" href="https://www.sarkarinetworker.com/latest1.html">
+
 <style>
 
 *{
@@ -37,7 +38,6 @@ background:rgba(255,255,255,0.05);
 backdrop-filter:blur(10px);
 position:sticky;
 top:0;
-z-index:1000;
 }
 
 .logo{
@@ -53,10 +53,7 @@ gap:15px;
 .menu a{
 color:white;
 text-decoration:none;
-font-weight:500;
 }
-
-/* MOBILE BUTTON */
 
 .menu-btn{
 display:none;
@@ -68,11 +65,11 @@ cursor:pointer;
 
 .title{
 text-align:center;
-margin-top:50px;
+margin-top:60px;
 font-size:40px;
 }
 
-/* SEARCH */
+
 
 .search-box{
 text-align:center;
@@ -87,41 +84,51 @@ border:none;
 outline:none;
 }
 
-/* JOB GRID */
+/* CONTENT */
 
-.container{
+.content{
 width:90%;
 margin:auto;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:25px;
 margin-top:40px;
-}
-
-.job-card{
 background:rgba(255,255,255,0.08);
-border-radius:15px;
-padding:25px;
-backdrop-filter:blur(12px);
-transition:.4s;
+padding:30px;
+border-radius:10px;
 }
 
-.job-card:hover{
-transform:translateY(-6px);
-background:rgba(255,255,255,0.18);
+.job{
+padding:15px;
+border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
-.btn{
-display:inline-block;
-margin-top:10px;
-background:#00e5ff;
-color:black;
-padding:8px 14px;
-border-radius:6px;
+
+#button-design{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+button{
+    
+    padding: 10px 20px;
+    border-radius: 6px ;
+   
+}
+
+#jobList{
+
+display:grid;
+justify-content: center;
+}
+
+
+.job a{
+color:#00e5ff;
 text-decoration:none;
 }
 
-/* FOOTER */
+/*footer*/
+
+
 
 footer{
 text-align:center;
@@ -129,6 +136,13 @@ padding:40px;
 margin-top:80px;
 background:rgba(0,0,0,0.3);
 }
+
+footer a{
+color:#00e5ff;
+text-decoration:none;
+margin:0 10px;
+}
+
 
 /* MOBILE */
 
@@ -143,16 +157,11 @@ background:#0f2027;
 flex-direction:column;
 max-height:0;
 overflow:hidden;
-transition:0.4s;
-}
-
-.menu a{
-padding:2px;
-border-bottom:1px solid rgba(255,255,255,0.1);
+transition:.4s;
 }
 
 .menu.show{
-max-height:1000px;
+max-height:600px;
 }
 
 .menu-btn{
@@ -162,9 +171,6 @@ display:block;
 }
 
 </style>
-
-
-
 </head>
 
 <body>
@@ -176,8 +182,9 @@ display:block;
 <div class="menu-btn" onclick="toggleMenu()">☰</div>
 
 <div class="menu" id="menu">
+
 <a href="index.html">Home</a>
-<a href="index-active-upcomming-job/active-upcoming.html">Latest Job</a>
+<a href="latest1.html">Latest Job</a>
 <a href="admitcard.html">Admit Card</a>
 <a href="addmission.html">Admission</a>
 <a href="result.html">Result</a>
@@ -189,45 +196,30 @@ display:block;
 <a href="document.html">Document</a>
 <a href="more.html">More</a>
 
-</div>
 
 </div>
 
-<h1 class="title">Newspaper</h1>
+</div>
+
+<h1 class="title">  upcomming Job Government Jobs</h1>
 
 <div class="search-box">
-<input type="text" id="searchInput" placeholder="Search Newspaper..." onkeyup="searchJob()">
+<input type="text" id="searchInput" placeholder="Upcomming Job Search.." onkeyup="searchJob()">
 </div>
 
-<div class="container">
+<div class="content">
 
-<div class="job-card">
-<h3>Amar Ujal</h3>
-<p></p>
-<p></p>
-<a class="btn" href="#">View Details</a>
+
+<div id="jobList"></div>
+
+<div id="button-design">
+    <button onclick="loadMore()">Load More</button>
+</div>
 </div>
 
-<div class="job-card">
-<h3>Hindustan</h3>
-<p></p>
-<p></p>
-<a class="btn" href="#">View Details</a>
-</div>
 
-<div class="job-card">
-<h3>Denik Jagran</h3>
-<p></p>
-<p></p>
-<a class="btn" href="#">View Details</a>
-</div>
 
-<div class="job-card">
-<h3></h3>
-<p></p>
-<p></p>
-<a class="btn" href="#">View Details</a>
-</div>
+
 
 </div>
 
@@ -264,6 +256,7 @@ display:block;
 
 
 </footer>
+<script src="script.js"></script>
 
 
 <script>
@@ -272,11 +265,16 @@ function toggleMenu(){
 document.getElementById("menu").classList.toggle("show");
 }
 
+
+
+
+
+
 function searchJob(){
 
 let input=document.getElementById("searchInput").value.toLowerCase()
 
-let cards=document.querySelectorAll(".job-card")
+let cards=document.querySelectorAll(".job")
 
 cards.forEach(card=>{
 
@@ -289,10 +287,21 @@ card.style.display="none"
 }
 
 })
-
 }
 
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
