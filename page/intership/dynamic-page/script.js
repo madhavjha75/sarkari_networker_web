@@ -26,45 +26,45 @@ document.getElementById("elegibility-creteria-sec").innerText = post["elegibilit
 document.getElementById("elegibility-creteria-thr").innerText = post["elegibility-creteria-thr"];
 document.getElementById("elegibility-creteria-foth").innerText = post["elegibility-creteria-foth"];
 document.getElementById("elegibility-creteria-fith").innerText = post["elegibility-creteria-fith"];
-document.getElementById("req-ski-one").innerText = post["req-ski-one"];
-document.getElementById("req-ski-sec").innerText = post["req-ski-sec"];
-document.getElementById("req-ski-thr").innerText = post["req-ski-thr"];
-document.getElementById("req-ski-foth").innerText = post["req-ski-foth"];
-document.getElementById("req-ski-fith").innerText = post["req-ski-fith"];
-document.getElementById("req-ski-six").innerText = post["req-ski-six"];
-document.getElementById("education-qua").innerText = post["education-qua"];
+document.getElementById("required-skill-one").innerText = post["required-skill-one"];
+document.getElementById("required-skill-sec").innerText = post["required-skill-sec"];
+document.getElementById("required-skill-thr").innerText = post["required-skill-thr"];
+document.getElementById("required-skill-foth").innerText = post["required-skill-foth"];
+document.getElementById("required-skill-fith").innerText = post["required-skill-fith"];
+document.getElementById("required-skill-six").innerText = post["required-skill-six"];
+document.getElementById("education-qualification").innerText = post["education-qualification"];
 document.getElementById("intership-duration").innerText = post["intership-duration"];
 document.getElementById("intership-stipend").innerText = post["intership-stipend"];
-document.getElementById("intership-loc").innerText = post["intership-loc"];
-document.getElementById("intership-beni-one").innerText = post["intership-beni-one"];
- document.getElementById("intership-beni-sec").innerText = post["intership-beni-sec"];
-document.getElementById("intership-beni-thr").innerText = post["intership-beni-thr"];
-document.getElementById("intership-beni-fort").innerText = post["intership-beni-fort"];
-document.getElementById("intership-beni-fith").innerText = post["intership-beni-fith"];
+document.getElementById("intership-location").innerText = post["intership-location"];
+document.getElementById("intership-benefit-one").innerText = post["intership-benefit-one"];
+ document.getElementById("intership-benefit-sec").innerText = post["intership-benefit-sec"];
+document.getElementById("intership-benefit-thr").innerText = post["intership-benefit-thr"];
+document.getElementById("intership-benefit-foth").innerText = post["intership-benefit-foth"];
+document.getElementById("intership-benefit-fith").innerText = post["intership-benefit-fith"];
 
 
 
 
-document.getElementById("lea-oppor").innerText = post["lea-oppor"];
-document.getElementById("training-p").innerText = post["training-p"];
-document.getElementById("respo-one").innerText = post["respo-one"];
-document.getElementById("respo-sec").innerText = post["respo-sec"];
-document.getElementById("respo-thr").innerText = post["respo-thr"];
-document.getElementById("respo-for").innerText = post["respo-for"];
+document.getElementById("learning-opportunities").innerText = post["learning-opportunities"];
+document.getElementById("training-program").innerText = post["training-program"];
+document.getElementById("responsibility-one").innerText = post["responsibility-one"];
+document.getElementById("responsibility-sec").innerText = post["responsibility-sec"];
+document.getElementById("responsibility-thr").innerText = post["responsibility-thr"];
+document.getElementById("responsibility-foth").innerText = post["responsibility-foth"];
 
-document.getElementById("sele-one").innerText = post["sele-one"];
-  document.getElementById("sele-sec").innerText = post["sele-sec"];
-  document.getElementById("sele-thr").innerText = post["sele-thr"];
+document.getElementById("selection-one").innerText = post["selection-one"];
+  document.getElementById("selection-sec").innerText = post["selection-sec"];
+  document.getElementById("selection-thr").innerText = post["selection-thr"];
 
   document.getElementById("application-fee").innerText = post["application-fee"];
-  document.getElementById("intership-cer").innerText = post["intership-cer"];
-  document.getElementById("career-opp").innerText = post["career-opp"];
+  document.getElementById("intership-certificate").innerText = post["intership-certificate"];
+  document.getElementById("career-opportunities").innerText = post["career-opportunities"];
 
-  document.getElementById("inte-she-oe").innerText = post["inte-she-oe"];
-  document.getElementById("inte-she-sec").innerText = post["inte-she-sec"];
+  document.getElementById("intership-schedule-one").innerText = post["intership-schedule-one"];
+  document.getElementById("intership-schedule-sec").innerText = post["intership-schedule-sec"];
 
   document.getElementById("start").innerText = post["start"];
-  document.getElementById("lst-dat").innerText = post["lst-dat"];
+  document.getElementById("last-date").innerText = post["last-date"];
 
 
 
