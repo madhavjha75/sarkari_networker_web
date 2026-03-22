@@ -51,23 +51,17 @@ document.getElementById("responsibility-one").innerText = post["responsibility-o
 document.getElementById("responsibility-sec").innerText = post["responsibility-sec"];
 document.getElementById("responsibility-thr").innerText = post["responsibility-thr"];
 document.getElementById("responsibility-foth").innerText = post["responsibility-foth"];
-
 document.getElementById("selection-one").innerText = post["selection-one"];
-  document.getElementById("selection-sec").innerText = post["selection-sec"];
-  document.getElementById("selection-thr").innerText = post["selection-thr"];
-
-  document.getElementById("application-fee").innerText = post["application-fee"];
-  document.getElementById("intership-certificate").innerText = post["intership-certificate"];
-  document.getElementById("career-opportunities").innerText = post["career-opportunities"];
-
-  document.getElementById("intership-schedule-one").innerText = post["intership-schedule-one"];
-  document.getElementById("intership-schedule-sec").innerText = post["intership-schedule-sec"];
-
-  document.getElementById("start").innerText = post["start"];
-  document.getElementById("last-date").innerText = post["last-date"];
-  document.getElementById("apply-btn").href = post["apply-btn"];
-
-
+document.getElementById("selection-sec").innerText = post["selection-sec"];
+document.getElementById("selection-thr").innerText = post["selection-thr"];
+document.getElementById("application-fee").innerText = post["application-fee"];
+document.getElementById("intership-certificate").innerText = post["intership-certificate"];
+document.getElementById("career-opportunities").innerText = post["career-opportunities"];
+ document.getElementById("intership-schedule-one").innerText = post["intership-schedule-one"];
+document.getElementById("intership-schedule-sec").innerText = post["intership-schedule-sec"];
+document.getElementById("start").innerText = post["start"];
+document.getElementById("last-date").innerText = post["last-date"];
+  document.getElementById("apply-online").href = post["apply-online"];
    document.getElementById("apply-link").href = post["apply-link"];
     document.getElementById("official-website").href = post["official-website"];
 
