@@ -65,6 +65,11 @@ document.getElementById("selection-one").innerText = post["selection-one"];
 
   document.getElementById("start").innerText = post["start"];
   document.getElementById("last-date").innerText = post["last-date"];
+  document.getElementById("apply-btn").href = post["apply-btn"];
+
+
+   document.getElementById("apply-link").href = post["apply-link"];
+    document.getElementById("official-website").href = post["official-website"];
 
 
 
