@@ -73,7 +73,7 @@ document.getElementById("selection-one").innerText = post["selection-one"];
 
    
   }else{
-    document.body.innerHTML = "<h2>Data Not Found</h2>";
+    document.body.innerHTML = "<h2>please use valid URL</h2>";
   }
 
 })
