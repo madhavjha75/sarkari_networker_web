@@ -7,10 +7,9 @@ fetch("data.json")
 
   const post = data.find(item => item.id === id);
 
-  if(post){
-    document.getElementById("intership-heading").innerText = post["intership-heading"];
+if(post){
+document.getElementById("intership-heading").innerText = post["intership-heading"];
 document.getElementById("introduction-para").innerText = post["introduction-para"];
-
 document.getElementById("company-name").innerText = post["company-name"];
 document.getElementById("post").innerText = post["post"];
 document.getElementById("location").innerText = post["location"];
@@ -37,32 +36,41 @@ document.getElementById("education-qua").innerText = post["education-qua"];
 document.getElementById("intership-duration").innerText = post["intership-duration"];
 document.getElementById("intership-stipend").innerText = post["intership-stipend"];
 document.getElementById("intership-loc").innerText = post["intership-loc"];
-document.getElementById("intership-beni-one)").innerText = post["intership-beni-one"];
-document.getElementById("intership-beni-sec").innerText = post["intership-beni-sec"];
+document.getElementById("intership-beni-one").innerText = post["intership-beni-one"];
+ document.getElementById("intership-beni-sec").innerText = post["intership-beni-sec"];
 document.getElementById("intership-beni-thr").innerText = post["intership-beni-thr"];
-document.getElementById("intership-beni-foth").innerText = post["intership-beni-foth"];
+document.getElementById("intership-beni-fort").innerText = post["intership-beni-fort"];
 document.getElementById("intership-beni-fith").innerText = post["intership-beni-fith"];
+
+
+
+
 document.getElementById("lea-oppor").innerText = post["lea-oppor"];
 document.getElementById("training-p").innerText = post["training-p"];
 document.getElementById("respo-one").innerText = post["respo-one"];
 document.getElementById("respo-sec").innerText = post["respo-sec"];
 document.getElementById("respo-thr").innerText = post["respo-thr"];
 document.getElementById("respo-for").innerText = post["respo-for"];
-document.getElementById("sale-one").innerText = post["sale-one"];
-document.getElementById("sale-sec").innerText = post["sale-sec"];
-document.getElementById("sale-thr").innerText = post["sale-thr"];
-document.getElementById("application-fee").innerText = post["application-fee"];
-document.getElementById("intership-cer").innerText = post["intership-cer"];
-document.getElementById("career-opp").innerText = post["career-opp"];
-document.getElementById("inte-she-oe").innerText = post["inte-she-oe"];
-document.getElementById("intership-duration").innerText = post["intership-duration"];
-document.getElementById("intership-stipend").innerText = post["intership-stipend"];
-document.getElementById("intership-loc").innerText = post["intership-loc"];
-document.getElementById("apply-btn").href = post["apply-link"];
-document.getElementById("apply").href = post["apply-link"];
-document.getElementById("offi-web").href = post["official-website"];
-document.getElementById("start").innerText = post["start"];
-document.getElementById("lst-dat").innerText = post["last-date"];
+
+document.getElementById("sele-one").innerText = post["sele-one"];
+  document.getElementById("sele-sec").innerText = post["sele-sec"];
+  document.getElementById("sele-thr").innerText = post["sele-thr"];
+
+  document.getElementById("application-fee").innerText = post["application-fee"];
+  document.getElementById("intership-cer").innerText = post["intership-cer"];
+  document.getElementById("career-opp").innerText = post["career-opp"];
+
+  document.getElementById("inte-she-oe").innerText = post["inte-she-oe"];
+  document.getElementById("inte-she-sec").innerText = post["inte-she-sec"];
+
+  document.getElementById("start").innerText = post["start"];
+  document.getElementById("lst-dat").innerText = post["lst-dat"];
+
+
+
+
+
+
    
   }else{
     document.body.innerHTML = "<h2>Data Not Found</h2>";
