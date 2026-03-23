@@ -22,6 +22,7 @@ function showData() {
       <div class="job">
         <a href="${job.link}">${job.title}</a>
         <p>${job.date}</p>
+        <p>${job.lastDate}</p>
       </div>
     `;
   });
