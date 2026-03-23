@@ -31,7 +31,7 @@ font-weight:bold;
 
 .menu{
 display:flex;
-gap:15px;
+ gap:10px; 
 }
 
 .menu a{
