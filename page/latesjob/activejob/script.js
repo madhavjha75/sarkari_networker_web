@@ -2,7 +2,7 @@
 let allData = [];
 let filteredData = [];
 let start = 0;
-let limit = 5;
+let limit = 10;
 
 fetch("data.json")
   .then(res => res.json())
