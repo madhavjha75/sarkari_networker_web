@@ -1,4 +1,5 @@
 
+
 // document.addEventListener("DOMContentLoaded", function () {
 
 //   const params = new URLSearchParams(window.location.search);
@@ -179,8 +180,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const url = new URL(window.location.href);
   let id = url.searchParams.get("job");
 
-  console.log("FULL URL:", window.location.href);
-  console.log("EXTRACTED ID:", id);
 
   if (!id) {
     document.body.innerHTML = "ID not found in URL";
