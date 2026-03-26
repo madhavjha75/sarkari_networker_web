@@ -342,3 +342,10 @@ document.getElementById("video-box").src = post["video-box"];
     .catch(err => console.error("ERROR:", err));
 
 });
+
+
+fetch("data.json?v=" + new Date().getTime())
+  .then(res => res.json())
+  .then(data => {
+    console.log(data);
+  });
