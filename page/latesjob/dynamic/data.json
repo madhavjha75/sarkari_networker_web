@@ -17,7 +17,7 @@
 
   "qualification": "12th Pass",
 
-  "eligibility": "Candidate must be 12th pass from recognized board with basic eligibility conditions",
+
 
   "exam-mode": "Online (CBT) + Physical Test",
 
@@ -55,7 +55,7 @@
 
   "post-name-one-vacancy": "2522",
   "post-name-two-vacancy": "776",
-  "post-name-three-vacancy": "",
+  "post-name-three-vacancy": "9",
   "post-name-four-vacancy": "",
   "post-name-five-vacancy": "",
   "post-name-six-vacancy": "",
@@ -67,8 +67,10 @@
   "post-name": "Constable",
 
   "post-vacancy": "Punjab Police",
+  "eligibility": "Candidate must be 12th pass from recognized board with basic eligibility conditions",
 
   "salary": "₹19,900 – ₹63,200 (Level-2)",
+    
 
   "banefits-1": "State government police job",
   "banefits-2": "Job security",
