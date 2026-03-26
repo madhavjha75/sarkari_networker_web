@@ -343,9 +343,3 @@ document.getElementById("video-box").src = post["video-box"];
 
 });
 
-
-fetch("data.json?v=" + new Date().getTime())
-  .then(res => res.json())
-  .then(data => {
-    console.log(data);
-  });
