@@ -180,7 +180,7 @@
   "fee-number1": "",
   
 
-   "min": "18 Years",
+   "minimum-age": "18 Years",
   "maximum-age": "32 Years (Post Wise)",
 
   "total-vacancy": "7000+ Posts (Expected)",
@@ -547,7 +547,7 @@
   "exam-pattern-three": "Each question carries 1 mark, no negative marking",
   "exam-pattern-four": "Duration: 2.5 Hours",
 
-  "selection-method": "Written Examination Only",
+  "selection-method": "Written Examinimumation Only",
 
   "apply-link": "https://ctet.nic.in",
   "official-website": "https://ctet.nic.in",
@@ -807,7 +807,7 @@
 
   "exam-pattern-one": "Online CEE Exam (Multiple Choice Questions)",
   "exam-pattern-two": "Physical Fitness Test (Running, Push-ups, etc.)",
-  "exam-pattern-three": "Medical Examination",
+  "exam-pattern-three": "Medical Examinimumation",
   "exam-pattern-four": "Document Verification",
 
   "selection-method": "Online Exam + Physical Test + Medical + Document Verification",
@@ -831,7 +831,7 @@
 
   "job-heading": "UPSSSC PET 2026 Online Form",
 
-  "introduction": "UPSSSC PET 2026 ek preliminary eligibility test hai jo Uttar Pradesh ki government jobs ke liye mandatory hai.",
+  "introduction": "UPSSSC PET 2026 ek preliminimumary eligibility test hai jo Uttar Pradesh ki government jobs ke liye mandatory hai.",
 
   "recruitment-body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) PET exam conduct karta hai. PET qualify karne ke baad candidates UP ke various group C exams ke liye eligible ho jate hain.",
 
@@ -954,7 +954,7 @@
   "exam-pattern-three": "Duration: 2 Hours",
   "exam-pattern-four": "Negative Marking: 0.25",
 
-  "selection-method": "Written Examination (PET Score)",
+  "selection-method": "Written Examinimumation (PET Score)",
 
   "apply-link": "https://upsssc.gov.in",
   "official-website": "https://upsssc.gov.in",
@@ -1242,7 +1242,7 @@
   "exam-pattern-three": "Negative Marking: 0.25 per wrong answer",
   "exam-pattern-four": "Total Duration: 2 Hours (Approx)",
 
-  "selection-method": "Prelims + Mains Examination",
+  "selection-method": "Prelims + Mains Examinimumation",
 
   "apply-link": "https://ibps.in",
   "official-website": "https://ibps.in",
@@ -1407,7 +1407,7 @@
 
   "introduction": "UPSC Civil Services 2026 India ka sabse prestigious aur toughest exam hai jiske through IAS, IPS, IFS jaise top government officers select hote hain.",
 
-  "recruitment-body": "Union Public Service Commission (UPSC) ke through Civil Services Examination conduct hota hai jisme IAS, IPS, IFS aur other Group A & B posts par recruitment hoti hai.",
+  "recruitment-body": "Union Public Service Commission (UPSC) ke through Civil Services Examinimumation conduct hota hai jisme IAS, IPS, IFS aur other Group A & B posts par recruitment hoti hai.",
 
   "qualification": "Graduation in any stream from recognized university",
 
@@ -1431,7 +1431,7 @@
 
   "total-vacancy": "1000+ Posts",
 
-  "post-name-one": "Indian Administrative Service (IAS)",
+  "post-name-one": "Indian Adminimumistrative Service (IAS)",
   "post-name-two": "Indian Police Service (IPS)",
   "post-name-three": "Indian Foreign Service (IFS)",
   "post-name-four": "Indian Revenue Service (IRS)",
@@ -1668,7 +1668,7 @@
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Physical Efficiency Test (Running, Long Jump, etc.)",
-  "exam-pattern-three": "Medical Examination",
+  "exam-pattern-three": "Medical Examinimumation",
   "exam-pattern-four": "Document Verification",
 
   "selection-method": "CBT + Physical Test + Medical + Document Verification",
@@ -1866,7 +1866,7 @@
   "post-name-four": "Junior Research Fellow (JRF)",
   "post-name-five": "Research Associate",
   "post-name-six": "Apprentice Trainee",
-  "post-name-seven": "Admin Assistant",
+  "post-name-seven": "Adminimum Assistant",
   "post-name-eight": "Store Assistant",
   "post-name-nine": "Lab Technician",
   "post-name-ten": "Other Technical Posts",
@@ -1940,7 +1940,7 @@
   "post-vacancy-name-six": "Apprentice",
   "total-vacancy-count-six": "150+",
 
-  "post-vacancy-name-seven": "Admin",
+  "post-vacancy-name-seven": "Adminimum",
   "total-vacancy-count-seven": "50+",
 
   "post-vacancy-name-eight": "Store",
@@ -1976,7 +1976,7 @@
 
   "job-heading": "AIIMS Recruitment 2026 Online Form",
 
-  "introduction": "AIIMS Recruitment 2026 medical field ke candidates ke liye ek best government job opportunity hai jisme nursing, technical aur administrative posts available hoti hain.",
+  "introduction": "AIIMS Recruitment 2026 medical field ke candidates ke liye ek best government job opportunity hai jisme nursing, technical aur adminimumistrative posts available hoti hain.",
 
   "recruitment-body": "All India Institute of Medical Sciences (AIIMS) ke through Nursing Officer, Clerk, Technician aur other medical posts par recruitment hoti hai.",
 
@@ -2239,7 +2239,7 @@
 
   "exam-pattern-one": "Physical Efficiency Test (Running, Long Jump, etc.)",
   "exam-pattern-two": "Written Exam (Objective Type)",
-  "exam-pattern-three": "Medical Examination",
+  "exam-pattern-three": "Medical Examinimumation",
   "exam-pattern-four": "Document Verification",
 
   "selection-method": "Physical Test + Written Exam + Medical + Document Verification",
@@ -2265,7 +2265,7 @@
 
   "introduction": "High Court Recruitment 2026 ek stable aur respected government job opportunity hai jo clerk aur stenographer posts ke liye hoti hai.",
 
-  "recruitment-body": "Various State High Courts ke through Clerk, Stenographer aur Assistant posts par recruitment hoti hai jisme court related administrative kaam hota hai.",
+  "recruitment-body": "Various State High Courts ke through Clerk, Stenographer aur Assistant posts par recruitment hoti hai jisme court related adminimumistrative kaam hota hai.",
 
   "qualification": "12th / Graduation (Post wise)",
 
@@ -2551,7 +2551,7 @@
 
   "introduction": "LIC Recruitment 2026 insurance sector ki ek high salary government job opportunity hai jo graduates ke liye best career option hai.",
 
-  "recruitment-body": "Life Insurance Corporation of India (LIC) ke through Assistant Administrative Officer (AAO) aur Apprentice Development Officer (ADO) posts par recruitment hoti hai.",
+  "recruitment-body": "Life Insurance Corporation of India (LIC) ke through Assistant Adminimumistrative Officer (AAO) aur Apprentice Development Officer (ADO) posts par recruitment hoti hai.",
 
   "qualification": "Graduation in any stream from recognized university",
 
@@ -2575,7 +2575,7 @@
 
   "total-vacancy": "3000+ Posts",
 
-  "post-name-one": "Assistant Administrative Officer (AAO)",
+  "post-name-one": "Assistant Adminimumistrative Officer (AAO)",
   "post-name-two": "Apprentice Development Officer (ADO)",
   "post-name-three": "AAO (Generalist)",
   "post-name-four": "AAO (IT)",
@@ -2979,7 +2979,7 @@
 
   "introduction": "India Post GDS 2026 ek no exam government job hai jo 10th pass candidates ke liye best opportunity hai.",
 
-  "recruitment-body": "India Post Department ke through Gramin Dak Sevak (GDS), Branch Postmaster (BPM) aur Assistant Branch Postmaster (ABPM) posts par recruitment hoti hai jisme selection merit ke basis par hota hai.",
+  "recruitment-body": "India Post Department ke through Graminimum Dak Sevak (GDS), Branch Postmaster (BPM) aur Assistant Branch Postmaster (ABPM) posts par recruitment hoti hai jisme selection merit ke basis par hota hai.",
 
   "qualification": "10th pass with Mathematics and English",
 
@@ -3003,7 +3003,7 @@
 
   "total-vacancy": "30000+ Posts",
 
-  "post-name-one": "Gramin Dak Sevak (GDS)",
+  "post-name-one": "Graminimum Dak Sevak (GDS)",
   "post-name-two": "Branch Postmaster (BPM)",
   "post-name-three": "Assistant Branch Postmaster (ABPM)",
   "post-name-four": "Dak Sevak",
@@ -3468,13 +3468,13 @@
   "subject-1-topics": "Fundamental Rights, Duties",
 
   "subject-2": "Indian Penal Code (IPC)",
-  "subject-2-topics": "Criminal laws",
+  "subject-2-topics": "Criminimumal laws",
 
   "subject-3": "Civil Procedure Code (CPC)",
   "subject-3-topics": "Civil cases procedures",
 
-  "subject-4": "Criminal Procedure Code (CrPC)",
-  "subject-4-topics": "Criminal procedures",
+  "subject-4": "Criminimumal Procedure Code (CrPC)",
+  "subject-4-topics": "Criminimumal procedures",
 
   "subject-5": "Evidence Act",
   "subject-5-topics": "Evidence rules",
@@ -3807,7 +3807,7 @@
 
   "introduction": "State PSC 2026 ek state level civil services exam hai jo UPSC ke jaise hota hai aur officer level jobs ke liye conduct hota hai.",
 
-  "recruitment-body": "State Public Service Commission (UPPSC, BPSC, MPPSC, etc.) ke through SDM, DSP, BDO aur other administrative posts par recruitment hoti hai.",
+  "recruitment-body": "State Public Service Commission (UPPSC, BPSC, MPPSC, etc.) ke through SDM, DSP, BDO aur other adminimumistrative posts par recruitment hoti hai.",
 
   "qualification": "Graduation from recognized university",
 
@@ -3860,7 +3860,7 @@
   "banefits-1": "High status government job",
   "banefits-2": "Good salary with allowances",
   "banefits-3": "Job security",
-  "banefits-4": "Promotion to higher administrative posts",
+  "banefits-4": "Promotion to higher adminimumistrative posts",
   "banefits-5": "Social prestige",
 
   "subject-1": "General Studies",
@@ -4123,7 +4123,7 @@
   "post-name-five": "Programmer",
   "post-name-six": "Software Developer",
   "post-name-seven": "System Analyst",
-  "post-name-eight": "Database Administrator",
+  "post-name-eight": "Database Adminimumistrator",
   "post-name-nine": "Network Engineer",
   "post-name-ten": "Other IT Posts",
 
@@ -4149,12 +4149,12 @@
   "banefits-5": "Career growth",
 
   "subject-1": "Technical Subject",
-  "subject-1-topics": "Programming, Data Structures",
+  "subject-1-topics": "Programminimumg, Data Structures",
 
   "subject-2": "Computer Science",
   "subject-2-topics": "OS, DBMS, Networks",
 
-  "subject-3": "Programming Languages",
+  "subject-3": "Programminimumg Languages",
   "subject-3-topics": "C, Java, Python",
 
   "subject-4": "Reasoning",
@@ -4805,7 +4805,7 @@
 
   "introduction": "Coal India Recruitment 2026 ek PSU (Public Sector Undertaking) job hai jo high salary aur secure career provide karti hai.",
 
-  "recruitment-body": "Coal India Limited (CIL) ke through Management Trainee (MT) posts par recruitment hoti hai jo mining aur management sectors me kaam karti hai.",
+  "recruitment-body": "Coal India Limited (CIL) ke through Management Trainee (MT) posts par recruitment hoti hai jo minimuming aur management sectors me kaam karti hai.",
 
   "qualification": "Bachelor Degree in relevant discipline (Engineering / Management / Commerce etc.)",
 
@@ -4851,7 +4851,7 @@
   "post-name-nine-vacancy": "100+",
   "post-name-ten-vacancy": "50+",
 
-  "eligibility": "Candidate must have degree in relevant discipline with minimum required marks",
+  "eligibility": "Candidate must have degree in relevant discipline with minimumimum required marks",
 
   "salary": "₹50,000 – ₹1,60,000 (E2 Grade PSU Pay Scale)",
 
