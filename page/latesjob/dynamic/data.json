@@ -1,150 +1,110 @@
 [
+  {
+    "id": "punjab-police-constable-2026",
+    "job-heading": "Punjab Police Constable Recruitment 2026 Apply Online",
+    "introduction": "Punjab Police ne 3298 Constable ke liye bharti nikali hai jisme male aur female dono apply kar sakte hain.",
+    "recruitment-body": "Punjab Police Recruitment Board Chandigarh",
+    "qualification": "Candidate ko kisi bhi recognized board se 12th pass hona chahiye",
+    "exam-mode": "Online Computer Based Test (CBT)",
 
-{
-  "id": "punjab-police-constable-2026",
+    "notification-date": "10 March 2026",
+    "apply-start-date": "15 March 2026",
+    "apply-last-date": "10 April 2026",
+    "exam-date": "20 June 2026",
+    "admitcard-date": "05 June 2026",
+    "result-date": "25 July 2026",
 
-  "title": "Punjab Police Constable Recruitment 2026 Apply Online – 3298 Posts, Eligibility, Salary",
+    "categeory-fee": "General / OBC",
+    "fee-number": "1150 Rs",
+    "categeory-fee1": "SC / ST",
+    "fee-number1": "650 Rs",
 
-  "description": "Punjab Police Constable Recruitment 2026 for 3298 posts. Apply online, check eligibility, age limit, selection process, exam date and full details.",
+    "minimum-age": "18 Years",
+    "maximum-age": "28 Years",
 
-  "keywords": "Punjab Police Constable 2026, police job 2026, 12th pass govt job, Punjab police vacancy",
+    "total-vacancy": "3298",
 
-  "job-heading": "Punjab Police Constable Recruitment 2026 Online Form",
+    "post-name-one": "Constable District Police",
+    "post-name-two": "Constable Armed Police",
+    "post-name-three": "Driver Constable",
+    "post-name-four": "Wireless Operator",
+    "post-name-five": "Clerk Constable",
+    "post-name-six": "Technical Constable",
+    "post-name-seven": "IT Support Staff",
+    "post-name-eight": "Cyber Cell Assistant",
+    "post-name-nine": "Traffic Police Constable",
+    "post-name-ten": "Reserve Police Constable",
 
-  "introduction": "Punjab Police ne Constable Recruitment 2026 ke liye 3298 vacancies ka notification jari kiya hai. Yeh 12th pass candidates ke liye ek badi opportunity hai.",
+    "post-name-one-vacancy": "2610",
+    "post-name-two-vacancy": "688",
+    "post-name-three-vacancy": "50",
+    "post-name-four-vacancy": "40",
+    "post-name-five-vacancy": "30",
+    "post-name-six-vacancy": "25",
+    "post-name-seven-vacancy": "20",
+    "post-name-eight-vacancy": "15",
+    "post-name-nine-vacancy": "10",
+    "post-name-ten-vacancy": "10",
 
-  "recruitment-body": "Punjab Police",
+    "eligibility": "Candidate physically fit hona chahiye aur 12th pass hona chahiye",
+    "salary": "19900 se 63200 Rs Level 2 Pay Scale",
 
-  "qualification": "12th Pass",
-  "exam-mode": "Online (CBT) + Physical Test",
+    "banefits-1": "Permanent Government Job",
+    "banefits-2": "Medical Facility",
+    "banefits-3": "Pension Scheme",
+    "banefits-4": "Job Security",
+    "banefits-5": "Promotion Opportunities",
 
- 
+    "subject-1": "General Knowledge",
+    "subject-1-topics": "History, Polity, Geography, Current Affairs",
+    "subject-2": "Reasoning",
+    "subject-2-topics": "Logical Reasoning, Coding Decoding",
+    "subject-3": "Mathematics",
+    "subject-3-topics": "Arithmetic, Algebra, Percentage",
+    "subject-4": "English",
+    "subject-4-topics": "Grammar, Vocabulary, Comprehension",
+    "subject-5": "Computer Knowledge",
+    "subject-5-topics": "Basic Computer, Internet",
+    "subject-6": "Punjab GK",
+    "subject-6-topics": "Punjab History, Culture",
+    "subject-7": "Science",
+    "subject-7-topics": "Physics, Chemistry, Biology Basics",
+    "subject-8": "Current Affairs",
+    "subject-8-topics": "National and International News",
+    "subject-9": "Quantitative Aptitude",
+    "subject-9-topics": "Number System, Simplification",
+    "subject-10": "Mental Ability",
+    "subject-10-topics": "Puzzle, Series, Analogy",
 
-  "notification-date": "06 March 2026",
-  "apply-start-date": "10 March 2026",
-  "apply-last-date": "30 March 2026",
+    "post-vacancy-name-one": "District Police",
+    "total-vacancy-count-one": "2610",
+    "post-vacancy-name-two": "Armed Police",
+    "total-vacancy-count-two": "688",
+    "post-vacancy-name-three": "Driver",
+    "total-vacancy-count-three": "50",
+    "post-vacancy-name-four": "Wireless",
+    "total-vacancy-count-four": "40",
+    "post-vacancy-name-five": "Clerk",
+    "total-vacancy-count-five": "30",
+    "post-vacancy-name-six": "Technical",
+    "total-vacancy-count-six": "25",
+    "post-vacancy-name-seven": "IT Staff",
+    "total-vacancy-count-seven": "20",
+    "post-vacancy-name-eight": "Cyber",
+    "total-vacancy-count-eight": "15",
+    "post-vacancy-name-nine": "Traffic",
+    "total-vacancy-count-nine": "10",
+    "post-vacancy-name-ten": "Reserve",
+    "total-vacancy-count-ten": "10",
 
-  "exam-date": "April / May 2026 (Expected)",
-  "admitcard-date": "Before Exam",
-  "result-date": "After Exam",
+    "exam-pattern-one": "Total 100 Questions",
+    "exam-pattern-two": "Total 100 Marks",
+    "exam-pattern-three": "Time Duration 2 Hours",
+    "exam-pattern-four": "No Negative Marking",
+    "selection-method": "Written Exam + Physical Test + Document Verification",
 
- 
-  "categeory-fee": "General: ",
-  "fee-number": "1200",
-  "categeory-fee1": "SC/ ST/ BC/ EWS: ",
-  "fee-number1": "700",
-
-  "minimum-age": "18 Years",
-  "maximum-age": "28 Years (Relaxation as per rules)",
-
-  "total-vacancy": "3298 Posts",
-
-  "post-name-one": "Constable (District Police Cadre)",
-  "post-name-two": "Constable (Armed Police Cadre)",
-  "post-name-three": "",
-  "post-name-four": "",
-  "post-name-five": "",
-  "post-name-six": "",
-  "post-name-seven": "",
-  "post-name-eight": "",
-  "post-name-nine": "",
-  "post-name-ten": "",
-
-  "post-name-one-vacancy": "2522",
-  "post-name-two-vacancy": "776",
-  "post-name-three-vacancy": "",
-  "post-name-four-vacancy": "",
-  "post-name-five-vacancy": "",
-  "post-name-six-vacancy": "",
-  "post-name-seven-vacancy": "",
-  "post-name-eight-vacancy": "",
-  "post-name-nine-vacancy": "",
-  "post-name-ten-vacancy": "",
-
-  
-
- 
-  "eligibility": "Candidate must be 12th pass from recognized board with basic eligibility conditions",
-
-  "salary": "₹19,900 – ₹63,200 (Level-2)",
-    
-
-  "banefits-1": "State government police job",
-  "banefits-2": "Job security",
-  "banefits-3": "Allowances and banefits",
-  "banefits-4": "Promotion opportunities",
-  "banefits-5": "Uniform service banefits",
-
-  "subject-1": "General Knowledge",
-  "subject-1-topics": "Current Affairs",
-
-  "subject-2": "Reasoning",
-  "subject-2-topics": "Logical reasoning",
-
-  "subject-3": "Mathematics",
-  "subject-3-topics": "Basic maths",
-
-  "subject-4": "English / Punjabi",
-  "subject-4-topics": "Language skills",
-
-  "subject-5": "Computer Knowledge",
-  "subject-5-topics": "Basics",
-
-  "subject-6": "Physical Test",
-  "subject-6-topics": "Running, fitness",
-
-  "subject-7": "",
-  "subject-7-topics": "",
-
-  "subject-8": "",
-  "subject-8-topics": "",
-
-  "subject-9": "",
-  "subject-9-topics": "",
-
-  "subject-10": "",
-  "subject-10-topics": "",
-
-  "post-vacancy-name-one": "District Police",
-  "total-vacancy-count-one": "2522+",
-
-  "post-vacancy-name-two": "Armed Police",
-  "total-vacancy-count-two": "776",
-
-  "post-vacancy-name-three": "",
-  "total-vacancy-count-three": "",
-
-  "post-vacancy-name-four": "",
-  "total-vacancy-count-four": "",
-
-  "post-vacancy-name-five": "",
-  "total-vacancy-count-five": "",
-
-  "post-vacancy-name-six": "",
-  "total-vacancy-count-six": "",
-
-  "post-vacancy-name-seven": "",
-  "total-vacancy-count-seven": "",
-
-  "post-vacancy-name-eight": "",
-  "total-vacancy-count-eight": "",
-
-  "post-vacancy-name-nine": "",
-  "total-vacancy-count-nine": "",
-
-  "post-vacancy-name-ten": "",
-  "total-vacancy-count-ten": "",
-  "selection-method": "Written Exam + Physical Efficiency Test (PET) + Document Verification",
-
-  "exam-pattern-one": "Written Exam (Objective)",
-  "exam-pattern-two": "Physical Efficiency Test (PET)",
-  "exam-pattern-three": "Document Verification",
-  "exam-pattern-four": "Final Merit List",
-
-  "apply-link": "https://punjabpolice.gov.in",
-  "official-website": "https://punjabpolice.gov.in",
-
-  "video-box": "https://www.youtube.com/embed/G9DqyiqnVOw"
-}
+    "apply-link": "https://punjabpolice.gov.in/recruitment",
+    "official-website": "https://punjabpolice.gov.in",
+    "video-box": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  }
 ]
-

@@ -204,7 +204,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       document.title = post["job-heading"];
-
       document.getElementById("job-heading").innerText = post["job-heading"];
       document.getElementById("introduction").innerText = post["introduction"];
       document.getElementById("recruitment-body").innerText = post["recruitment-body"];
@@ -313,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("exam-pattern-two").innerText = post["exam-pattern-two"];
       document.getElementById("exam-pattern-three").innerText = post["exam-pattern-three"];
       document.getElementById("exam-pattern-four").innerText = post["exam-pattern-four"];
-        document.getElementById("selection-method").innerText = post["selection-method"];
+      document.getElementById("selection-method").innerText = post["selection-method"];
 
       document.getElementById("apply-link").href = post["apply-link"];
       document.getElementById("official-website").href = post["official-website"];
