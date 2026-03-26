@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", function () {
        document.getElementById("subject-5").innerText = post["subject-5"];
       document.getElementById("subject-5-topics").innerText = post["subject-5-topics"];
 
-       document.getElementById("subject-6").innerText = post["subject-3"];
-      document.getElementById("subject-3-topics").innerText = post["subject-3-topics"];
+       document.getElementById("subject-6").innerText = post["subject-6"];
+      document.getElementById("subject-6-topics").innerText = post["subject-6-topics"];
 
        document.getElementById("subject-7").innerText = post["subject-7"];
       document.getElementById("subject-7-topics").innerText = post["subject-7-topics"];
