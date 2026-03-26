@@ -321,7 +321,6 @@
 
   "categeory-fee": "General / OBC",
   "fee-number": "₹500",
-
   "categeory-fee1": "SC / ST / Female",
   "fee-number1": "₹250",
 
@@ -329,6 +328,28 @@
   "maximum-age": "33 Years",
 
   "total-vacancy": "10000+ Posts (Expected)",
+  "post-name-one": "Junior Clerk cum Typist",
+  "post-name-two": "Accounts Clerk cum Typist",
+  "post-name-three": "Junior Time Keeper",
+  "post-name-four": "Trains Clerk",
+  "post-name-five": "Commercial cum Ticket Clerk",
+  "post-name-six": "Traffic Assistant",
+  "post-name-seven": "Goods Guard",
+  "post-name-eight": "Station Master",
+  "post-name-nine": "Senior Clerk cum Typist",
+  "post-name-ten": "Senior Time Keeper",
+
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
+
 
 
   "eligibility": "12th or graduate candidates eligible. Typing skill required for some posts.",
@@ -371,28 +392,7 @@
   "subject-10": "English Language",
   "subject-10-topics": "Grammar, Vocabulary, Comprehension",
 
-  "post-name-one": "Junior Clerk cum Typist",
-  "post-name-two": "Accounts Clerk cum Typist",
-  "post-name-three": "Junior Time Keeper",
-  "post-name-four": "Trains Clerk",
-  "post-name-five": "Commercial cum Ticket Clerk",
-  "post-name-six": "Traffic Assistant",
-  "post-name-seven": "Goods Guard",
-  "post-name-eight": "Station Master",
-  "post-name-nine": "Senior Clerk cum Typist",
-  "post-name-ten": "Senior Time Keeper",
-
-  "post-name-one-vacancy": "",
-  "post-name-two-vacancy": "",
-  "post-name-three-vacancy": "",
-  "post-name-four-vacancy": "",
-  "post-name-five-vacancy": "",
-  "post-name-six-vacancy": "",
-  "post-name-seven-vacancy": "",
-  "post-name-eight-vacancy": "",
-  "post-name-nine-vacancy": "",
-  "post-name-ten-vacancy": "",
-
+  
   "post-vacancy-name-one": "Junior Clerk cum Typist",
   "total-vacancy-count-one": "",
 
