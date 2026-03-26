@@ -2,7 +2,10 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   const params = new URLSearchParams(window.location.search);
-  const id = params.get("job");
+  window.id = params.get("job");
+
+
+  console.log("ID:", id);
 
   fetch("data.json")
     .then(res => res.json())
