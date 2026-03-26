@@ -16,12 +16,9 @@
   "recruitment-body": "Punjab Police",
 
   "qualification": "12th Pass",
-
-
-
   "exam-mode": "Online (CBT) + Physical Test",
 
-  "selection-method": "Written Exam + Physical Efficiency Test (PET) + Document Verification",
+ 
 
   "notification-date": "06 March 2026",
   "apply-start-date": "10 March 2026",
@@ -55,7 +52,7 @@
 
   "post-name-one-vacancy": "2522",
   "post-name-two-vacancy": "776",
-  "post-name-three-vacancy": "9",
+  "post-name-three-vacancy": "",
   "post-name-four-vacancy": "",
   "post-name-five-vacancy": "",
   "post-name-six-vacancy": "",
@@ -64,9 +61,9 @@
   "post-name-nine-vacancy": "",
   "post-name-ten-vacancy": "",
 
-  "post-name": "Constable",
+  
 
-  "post-vacancy": "Punjab Police",
+ 
   "eligibility": "Candidate must be 12th pass from recognized board with basic eligibility conditions",
 
   "salary": "₹19,900 – ₹63,200 (Level-2)",
@@ -137,6 +134,7 @@
 
   "post-vacancy-name-ten": "",
   "total-vacancy-count-ten": "",
+  "selection-method": "Written Exam + Physical Efficiency Test (PET) + Document Verification",
 
   "exam-pattern-one": "Written Exam (Objective)",
   "exam-pattern-two": "Physical Efficiency Test (PET)",
