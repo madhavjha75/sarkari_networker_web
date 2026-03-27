@@ -186,6 +186,10 @@ table tr:hover{
 background:rgba(255,255,255,0.1);
 }
 
+table td a{
+    color: #4ade80;
+}
+
 /* NOTE */
 
 .note{
