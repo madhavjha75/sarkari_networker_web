@@ -1,10 +1,9 @@
-
 let allJobs = [];
 let currentIndex = 0;
 const limit = 10;
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/result-json-script/data.json")
+  fetch("admitcard-json-script/data.json")
     .then(res => res.json())
     .then(data => {
       allJobs = data;
