@@ -611,14 +611,14 @@
 
   "post-name-one-vacancy": "",
   "post-name-two-vacancy": "",
-  "post-name-three-vacancy": "500",
-  "post-name-four-vacancy": "300",
-  "post-name-five-vacancy": "150",
-  "post-name-six-vacancy": "100",
-  "post-name-seven-vacancy": "100",
-  "post-name-eight-vacancy": "100",
-  "post-name-nine-vacancy": "80",
-  "post-name-ten-vacancy": "70",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and should have basic computer knowledge",
 
@@ -777,34 +777,34 @@
   "subject-10-topics": "Defense news, current events",
 
   "post-vacancy-name-one": "General Duty (GD)",
-  "total-vacancy-count-one": "12000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Technical",
-  "total-vacancy-count-two": "5000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Clerk",
-  "total-vacancy-count-three": "3000+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Tradesman",
-  "total-vacancy-count-four": "4000+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Women Military Police",
-  "total-vacancy-count-five": "1000+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Nursing Assistant",
-  "total-vacancy-count-six": "500+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Pharma",
-  "total-vacancy-count-seven": "300+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Religious Teacher",
-  "total-vacancy-count-eight": "100+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Education Havildar",
-  "total-vacancy-count-nine": "100+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Sports Quota",
-  "total-vacancy-count-ten": "100+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Online CEE Exam (Multiple Choice Questions)",
   "exam-pattern-two": "Physical Fitness Test (Running, Push-ups, etc.)",
@@ -1014,15 +1014,15 @@
   "post-name-ten": "Other Support Staff",
 
   "post-name-one-vacancy": "",
-  "post-name-two-vacancy": "+",
-  "post-name-three-vacancy": "+",
-  "post-name-four-vacancy": "+",
-  "post-name-five-vacancy": "+",
-  "post-name-six-vacancy": "+",
-  "post-name-seven-vacancy": "+",
-  "post-name-eight-vacancy": "+",
-  "post-name-nine-vacancy": "+",
-  "post-name-ten-vacancy": "0+",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 10th pass and meet age criteria",
 
@@ -1068,31 +1068,31 @@
   "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Havaldar",
-  "total-vacancy-count-two": "+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Peon",
-  "total-vacancy-count-three": "+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Daftary",
-  "total-vacancy-count-four": "+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Operator",
-  "total-vacancy-count-five": "+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Chowkidar",
-  "total-vacancy-count-six": "+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Safaiwala",
-  "total-vacancy-count-seven": "200+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Mali",
-  "total-vacancy-count-eight": "200+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Support Staff",
-  "total-vacancy-count-nine": "100+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "100+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Session 1: Reasoning + Numerical Ability (No Negative Marking)",
   "exam-pattern-two": "Session 2: English + General Awareness",
@@ -1157,16 +1157,16 @@
   "post-name-nine": "Junior Associate",
   "post-name-ten": "Support Staff",
 
-  "post-name-one-vacancy": "4000+",
-  "post-name-two-vacancy": "1000+",
-  "post-name-three-vacancy": "500+",
-  "post-name-four-vacancy": "200+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "100+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and should have basic computer knowledge",
 
@@ -1209,34 +1209,34 @@
   "subject-10-topics": "Error Detection, Fill in the blanks",
 
   "post-vacancy-name-one": "Clerk",
-  "total-vacancy-count-one": "4000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Office Assistant",
-  "total-vacancy-count-two": "1000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Cashier",
-  "total-vacancy-count-three": "200+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Account Assistant",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Customer Support",
-  "total-vacancy-count-five": "100+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Sales Associate",
-  "total-vacancy-count-six": "50+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Clerical Staff",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Junior Associate",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Support Staff",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: English, Reasoning, Numerical Ability (100 Questions)",
   "exam-pattern-two": "Mains: GA, English, Reasoning, Quantitative Aptitude",
@@ -1300,16 +1300,16 @@
   "post-name-nine": "Operations Officer",
   "post-name-ten": "Other Banking Officer Posts",
 
-  "post-name-one-vacancy": "4000+",
-  "post-name-two-vacancy": "500+",
-  "post-name-three-vacancy": "200+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "50+",
-  "post-name-six-vacancy": "50+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "20+",
-  "post-name-nine-vacancy": "20+",
-  "post-name-ten-vacancy": "10+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and should have basic computer knowledge",
 
@@ -1352,34 +1352,33 @@
   "subject-10-topics": "Error Detection, Fill in the blanks",
 
   "post-vacancy-name-one": "Probationary Officer",
-  "total-vacancy-count-one": "4000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Assistant Manager",
-  "total-vacancy-count-two": "500+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Management Trainee",
-  "total-vacancy-count-three": "200+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Relationship Manager",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Branch Officer",
-  "total-vacancy-count-five": "50+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Bank Officer",
-  "total-vacancy-count-six": "50+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Credit Officer",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Risk Officer",
-  "total-vacancy-count-eight": "20+",
-
+  "total-vacancy-count-eight": "",
   "post-vacancy-name-nine": "Operations Officer",
-  "total-vacancy-count-nine": "20+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "10+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: English, Reasoning, Quantitative Aptitude (100 Questions)",
   "exam-pattern-two": "Mains: Reasoning, GA, English, Data Analysis",
@@ -1430,7 +1429,7 @@
   "minimum-age": "21 Years",
   "maximum-age": "32 Years",
 
-  "total-vacancy": "1000+ Posts",
+  "total-vacancy": "",
 
   "post-name-one": "Indian Adminimumistrative Service (IAS)",
   "post-name-two": "Indian Police Service (IPS)",
@@ -1443,16 +1442,16 @@
   "post-name-nine": "Indian Postal Service",
   "post-name-ten": "Other Group A & B Services",
 
-  "post-name-one-vacancy": "150+",
-  "post-name-two-vacancy": "150+",
-  "post-name-three-vacancy": "50+",
-  "post-name-four-vacancy": "200+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "100+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "200+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "+",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and meet UPSC age criteria",
 
@@ -1495,34 +1494,34 @@
   "subject-10-topics": "Personality Test",
 
   "post-vacancy-name-one": "IAS",
-  "total-vacancy-count-one": "150+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "IPS",
-  "total-vacancy-count-two": "150+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "IFS",
-  "total-vacancy-count-three": "50+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "IRS",
-  "total-vacancy-count-four": "200+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Audit Service",
-  "total-vacancy-count-five": "100+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Railway Service",
-  "total-vacancy-count-six": "100+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Defence Accounts",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Information Service",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Postal Service",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Services",
-  "total-vacancy-count-ten": "200+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: 2 Papers (Objective Type)",
   "exam-pattern-two": "Mains: 9 Papers (Descriptive)",
@@ -1586,16 +1585,16 @@
   "post-name-nine": "Support Staff",
   "post-name-ten": "Other Police Posts",
 
-  "post-name-one-vacancy": "3000+",
-  "post-name-two-vacancy": "1000+",
-  "post-name-three-vacancy": "300+",
-  "post-name-four-vacancy": "200+",
-  "post-name-five-vacancy": "150+",
-  "post-name-six-vacancy": "100+",
-  "post-name-seven-vacancy": "100+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 12th pass (Constable) or graduate (SI) and meet physical standards",
 
@@ -1638,34 +1637,34 @@
   "subject-10-topics": "Police related knowledge",
 
   "post-vacancy-name-one": "Constable",
-  "total-vacancy-count-one": "3000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Sub-Inspector",
-  "total-vacancy-count-two": "1000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Head Constable",
-  "total-vacancy-count-three": "300+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Driver",
-  "total-vacancy-count-four": "200+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "ASI",
-  "total-vacancy-count-five": "150+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Technical",
-  "total-vacancy-count-six": "100+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Wireless Operator",
-  "total-vacancy-count-seven": "100+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Clerk",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Support Staff",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Physical Efficiency Test (Running, Long Jump, etc.)",
@@ -1716,7 +1715,7 @@
   "minimum-age": "18 Years",
   "maximum-age": "40 Years (Post Wise Relaxation Applicable)",
 
-  "total-vacancy": "3000+ Posts",
+  "total-vacancy": "",
 
   "post-name-one": "Primary Teacher (PRT)",
   "post-name-two": "Trained Graduate Teacher (TGT)",
@@ -1729,16 +1728,16 @@
   "post-name-nine": "Counsellor",
   "post-name-ten": "Special Educator",
 
-  "post-name-one-vacancy": "1200+",
-  "post-name-two-vacancy": "800+",
-  "post-name-three-vacancy": "600+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "50+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "30+",
-  "post-name-ten-vacancy": "20+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have Graduation/Post Graduation with B.Ed or D.El.Ed (as per post requirement)",
 
@@ -1781,34 +1780,34 @@
   "subject-10-topics": "National and international events",
 
   "post-vacancy-name-one": "PRT",
-  "total-vacancy-count-one": "1200+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "TGT",
-  "total-vacancy-count-two": "800+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "PGT",
-  "total-vacancy-count-three": "600+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Librarian",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "PET",
-  "total-vacancy-count-five": "100+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Music Teacher",
-  "total-vacancy-count-six": "50+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Art Teacher",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Computer Instructor",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Counsellor",
-  "total-vacancy-count-nine": "30+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Special Educator",
-  "total-vacancy-count-ten": "20+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Teaching Aptitude + Subject Knowledge",
@@ -1872,16 +1871,16 @@
   "post-name-nine": "Lab Technician",
   "post-name-ten": "Other Technical Posts",
 
-  "post-name-one-vacancy": "150+",
-  "post-name-two-vacancy": "200+",
-  "post-name-three-vacancy": "200+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "50+",
-  "post-name-six-vacancy": "150+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "30+",
-  "post-name-ten-vacancy": "20+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have Diploma / Degree in relevant field depending on the post",
 
@@ -1924,34 +1923,34 @@
   "subject-10-topics": "Post specific knowledge",
 
   "post-vacancy-name-one": "Scientist",
-  "total-vacancy-count-one": "150+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Technical Assistant",
-  "total-vacancy-count-two": "200+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Technician",
-  "total-vacancy-count-three": "200+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "JRF",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Research Associate",
-  "total-vacancy-count-five": "50+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Apprentice",
-  "total-vacancy-count-six": "150+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Adminimum",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Store",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Lab Technician",
-  "total-vacancy-count-nine": "30+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "20+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Technical Subject Questions",
@@ -2014,16 +2013,16 @@
   "post-name-nine": "Multi Tasking Staff (MTS)",
   "post-name-ten": "Other Medical Staff",
 
-  "post-name-one-vacancy": "1200+",
-  "post-name-two-vacancy": "500+",
-  "post-name-three-vacancy": "300+",
-  "post-name-four-vacancy": "200+",
-  "post-name-five-vacancy": "150+",
-  "post-name-six-vacancy": "150+",
-  "post-name-seven-vacancy": "100+",
-  "post-name-eight-vacancy": "200+",
-  "post-name-nine-vacancy": "200+",
-  "post-name-ten-vacancy": "200+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have relevant qualification (Nursing / Technical / Graduation) as per post",
 
@@ -2066,34 +2065,34 @@
   "subject-10-topics": "Post specific syllabus",
 
   "post-vacancy-name-one": "Nursing Officer",
-  "total-vacancy-count-one": "1200+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Staff Nurse",
-  "total-vacancy-count-two": "500+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Clerk",
-  "total-vacancy-count-three": "300+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Lab Technician",
-  "total-vacancy-count-four": "200+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Pharmacist",
-  "total-vacancy-count-five": "150+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Radiographer",
-  "total-vacancy-count-six": "150+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "OT Technician",
-  "total-vacancy-count-seven": "100+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Ward Assistant",
-  "total-vacancy-count-eight": "200+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "MTS",
-  "total-vacancy-count-nine": "200+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "200+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Technical Subject Questions",
@@ -2157,16 +2156,16 @@
   "post-name-nine": "Fire Technician",
   "post-name-ten": "Other Fire Department Posts",
 
-  "post-name-one-vacancy": "1200+",
-  "post-name-two-vacancy": "200+",
-  "post-name-three-vacancy": "200+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "80+",
-  "post-name-six-vacancy": "80+",
-  "post-name-seven-vacancy": "60+",
-  "post-name-eight-vacancy": "60+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 10th/12th pass and physically fit as per fire department standards",
 
@@ -2209,34 +2208,34 @@
   "subject-10-topics": "Environment and safety",
 
   "post-vacancy-name-one": "Fireman",
-  "total-vacancy-count-one": "1200+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Driver Fireman",
-  "total-vacancy-count-two": "200+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Leading Fireman",
-  "total-vacancy-count-three": "200+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Station Officer",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Sub Officer",
-  "total-vacancy-count-five": "80+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Operator",
-  "total-vacancy-count-six": "80+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Rescue Staff",
-  "total-vacancy-count-seven": "60+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Safety Staff",
-  "total-vacancy-count-eight": "60+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Technician",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Physical Efficiency Test (Running, Long Jump, etc.)",
   "exam-pattern-two": "Written Exam (Objective Type)",
@@ -2301,16 +2300,16 @@
   "post-name-nine": "Record Keeper",
   "post-name-ten": "Other Court Staff",
 
-  "post-name-one-vacancy": "600+",
-  "post-name-two-vacancy": "300+",
-  "post-name-three-vacancy": "150+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "80+",
-  "post-name-seven-vacancy": "70+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "30+",
-  "post-name-ten-vacancy": "20+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 12th pass or graduate with typing / stenography skills (as per post)",
 
@@ -2353,34 +2352,34 @@
   "subject-10-topics": "Court related knowledge",
 
   "post-vacancy-name-one": "Clerk",
-  "total-vacancy-count-one": "600+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Stenographer",
-  "total-vacancy-count-two": "300+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Assistant",
-  "total-vacancy-count-three": "150+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Court Staff",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Typist",
-  "total-vacancy-count-five": "100+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "DEO",
-  "total-vacancy-count-six": "80+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Process Server",
-  "total-vacancy-count-seven": "70+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Office Assistant",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Record Keeper",
-  "total-vacancy-count-nine": "30+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "20+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Typing Test / Stenography Test",
@@ -2444,16 +2443,16 @@
   "post-name-nine": "Electrical Supervisor",
   "post-name-ten": "Other Power Department Posts",
 
-  "post-name-one-vacancy": "1500+",
-  "post-name-two-vacancy": "800+",
-  "post-name-three-vacancy": "600+",
-  "post-name-four-vacancy": "200+",
-  "post-name-five-vacancy": "300+",
-  "post-name-six-vacancy": "150+",
-  "post-name-seven-vacancy": "200+",
-  "post-name-eight-vacancy": "150+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have ITI / Diploma / Degree in relevant field as per post",
 
@@ -2496,34 +2495,34 @@
   "subject-10-topics": "Electricity and safety knowledge",
 
   "post-vacancy-name-one": "Lineman",
-  "total-vacancy-count-one": "1500+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Junior Engineer",
-  "total-vacancy-count-two": "800+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Technician",
-  "total-vacancy-count-three": "600+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Assistant Engineer",
-  "total-vacancy-count-four": "200+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Clerk",
-  "total-vacancy-count-five": "300+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "DEO",
-  "total-vacancy-count-six": "150+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Meter Reader",
-  "total-vacancy-count-seven": "200+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Helper",
-  "total-vacancy-count-eight": "150+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Supervisor",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Technical Subject Questions",
@@ -2587,16 +2586,16 @@
   "post-name-nine": "Insurance Advisor",
   "post-name-ten": "Other Insurance Posts",
 
-  "post-name-one-vacancy": "1000+",
-  "post-name-two-vacancy": "1200+",
-  "post-name-three-vacancy": "300+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "50+",
-  "post-name-six-vacancy": "50+",
-  "post-name-seven-vacancy": "150+",
-  "post-name-eight-vacancy": "100+",
-  "post-name-nine-vacancy": "30+",
-  "post-name-ten-vacancy": "20+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and meet LIC eligibility criteria",
 
@@ -2639,34 +2638,34 @@
   "subject-10-topics": "Error detection, fill in the blanks",
 
   "post-vacancy-name-one": "AAO",
-  "total-vacancy-count-one": "1000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "ADO",
-  "total-vacancy-count-two": "1200+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "AAO General",
-  "total-vacancy-count-three": "300+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "AAO IT",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "AAO CA",
-  "total-vacancy-count-five": "50+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "AAO Actuarial",
-  "total-vacancy-count-six": "50+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "ADO Urban",
-  "total-vacancy-count-seven": "150+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "ADO Rural",
-  "total-vacancy-count-eight": "100+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Advisor",
-  "total-vacancy-count-nine": "30+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "20+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: Reasoning, Quant, English",
   "exam-pattern-two": "Mains: Reasoning, GA, English, Quant",
@@ -2730,16 +2729,16 @@
   "post-name-nine": "Diesel Mechanic Apprentice",
   "post-name-ten": "Other Trade Apprentices",
 
-  "post-name-one-vacancy": "800+",
-  "post-name-two-vacancy": "700+",
-  "post-name-three-vacancy": "600+",
-  "post-name-four-vacancy": "500+",
-  "post-name-five-vacancy": "400+",
-  "post-name-six-vacancy": "300+",
-  "post-name-seven-vacancy": "300+",
-  "post-name-eight-vacancy": "500+",
-  "post-name-nine-vacancy": "400+",
-  "post-name-ten-vacancy": "500+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have ITI certificate in relevant trade",
 
@@ -2782,34 +2781,34 @@
   "subject-10-topics": "Industry knowledge",
 
   "post-vacancy-name-one": "Fitter",
-  "total-vacancy-count-one": "800+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Electrician",
-  "total-vacancy-count-two": "700+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Welder",
-  "total-vacancy-count-three": "600+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Turner",
-  "total-vacancy-count-four": "500+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Machinist",
-  "total-vacancy-count-five": "400+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Plumber",
-  "total-vacancy-count-six": "300+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "COPA",
-  "total-vacancy-count-seven": "300+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Mechanic",
-  "total-vacancy-count-eight": "500+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Diesel Mechanic",
-  "total-vacancy-count-nine": "400+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Trades",
-  "total-vacancy-count-ten": "500+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Selection based on Merit (ITI Marks)",
   "exam-pattern-two": "No Written Exam",
@@ -2872,16 +2871,16 @@
   "post-name-nine": "Diesel Mechanic Apprentice",
   "post-name-ten": "Other Trade Apprentices",
 
-  "post-name-one-vacancy": "800+",
-  "post-name-two-vacancy": "700+",
-  "post-name-three-vacancy": "600+",
-  "post-name-four-vacancy": "500+",
-  "post-name-five-vacancy": "400+",
-  "post-name-six-vacancy": "300+",
-  "post-name-seven-vacancy": "300+",
-  "post-name-eight-vacancy": "500+",
-  "post-name-nine-vacancy": "400+",
-  "post-name-ten-vacancy": "500+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have ITI certificate in relevant trade",
 
@@ -2924,34 +2923,34 @@
   "subject-10-topics": "Industry knowledge",
 
   "post-vacancy-name-one": "Fitter",
-  "total-vacancy-count-one": "800+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Electrician",
-  "total-vacancy-count-two": "700+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Welder",
-  "total-vacancy-count-three": "600+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Turner",
-  "total-vacancy-count-four": "500+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Machinist",
-  "total-vacancy-count-five": "400+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Plumber",
-  "total-vacancy-count-six": "300+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "COPA",
-  "total-vacancy-count-seven": "300+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Mechanic",
-  "total-vacancy-count-eight": "500+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Diesel Mechanic",
-  "total-vacancy-count-nine": "400+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Trades",
-  "total-vacancy-count-ten": "500+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Selection based on Merit (ITI Marks)",
   "exam-pattern-two": "No Written Exam",
@@ -3015,16 +3014,16 @@
   "post-name-nine": "Delivery Agent",
   "post-name-ten": "Other Postal Posts",
 
-  "post-name-one-vacancy": "15000+",
-  "post-name-two-vacancy": "5000+",
-  "post-name-three-vacancy": "5000+",
-  "post-name-four-vacancy": "2000+",
-  "post-name-five-vacancy": "1000+",
-  "post-name-six-vacancy": "500+",
-  "post-name-seven-vacancy": "300+",
-  "post-name-eight-vacancy": "100+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 10th pass and have basic computer knowledge",
 
@@ -3067,34 +3066,33 @@
   "subject-10-topics": "Document verification",
 
   "post-vacancy-name-one": "GDS",
-  "total-vacancy-count-one": "15000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "BPM",
-  "total-vacancy-count-two": "5000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "ABPM",
-  "total-vacancy-count-three": "5000+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Dak Sevak",
-  "total-vacancy-count-four": "2000+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Mail Carrier",
-  "total-vacancy-count-five": "1000+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Postman",
-  "total-vacancy-count-six": "500+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Sorting Assistant",
-  "total-vacancy-count-seven": "300+",
-
+  "total-vacancy-count-seven": "",
   "post-vacancy-name-eight": "Rural Staff",
-  "total-vacancy-count-eight": "100+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Delivery Agent",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "No Written Exam",
   "exam-pattern-two": "Selection based on 10th marks merit",
@@ -3145,7 +3143,7 @@
   "minimum-age": "18 Years",
   "maximum-age": "33 Years (Relaxation as per rules)",
 
-  "total-vacancy": "15000+ Posts",
+  "total-vacancy": " Posts",
 
   "post-name-one": "Track Maintainer Grade IV",
   "post-name-two": "Helper / Assistant",
@@ -3158,16 +3156,16 @@
   "post-name-nine": "Trackman",
   "post-name-ten": "Other Group D Posts",
 
-  "post-name-one-vacancy": "4000+",
-  "post-name-two-vacancy": "3000+",
-  "post-name-three-vacancy": "2000+",
-  "post-name-four-vacancy": "1500+",
-  "post-name-five-vacancy": "1000+",
-  "post-name-six-vacancy": "800+",
-  "post-name-seven-vacancy": "800+",
-  "post-name-eight-vacancy": "500+",
-  "post-name-nine-vacancy": "300+",
-  "post-name-ten-vacancy": "100+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 10th pass and physically fit as per railway standards",
 
@@ -3210,34 +3208,33 @@
   "subject-10-topics": "Railway safety rules",
 
   "post-vacancy-name-one": "Track Maintainer",
-  "total-vacancy-count-one": "4000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Helper",
-  "total-vacancy-count-two": "3000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Pointsman",
-  "total-vacancy-count-three": "2000+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Gateman",
-  "total-vacancy-count-four": "1500+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Porter",
-  "total-vacancy-count-five": "1000+",
-
+  "total-vacancy-count-five": "",
   "post-vacancy-name-six": "Attendant",
-  "total-vacancy-count-six": "800+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Workshop Staff",
-  "total-vacancy-count-seven": "800+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Cleaner",
-  "total-vacancy-count-eight": "500+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Trackman",
-  "total-vacancy-count-nine": "300+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "100+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (100 Questions)",
   "exam-pattern-two": "Subjects: Science, Maths, Reasoning, GK",
@@ -3301,16 +3298,16 @@
   "post-name-nine": "Defence Support Staff",
   "post-name-ten": "Other Defence Posts",
 
-  "post-name-one-vacancy": "5000+",
-  "post-name-two-vacancy": "5000+",
-  "post-name-three-vacancy": "3000+",
-  "post-name-four-vacancy": "2000+",
-  "post-name-five-vacancy": "1500+",
-  "post-name-six-vacancy": "1000+",
-  "post-name-seven-vacancy": "500+",
-  "post-name-eight-vacancy": "500+",
-  "post-name-nine-vacancy": "300+",
-  "post-name-ten-vacancy": "200+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 10th/12th pass and physically fit as per defence standards",
 
@@ -3353,34 +3350,33 @@
   "subject-10-topics": "Security awareness",
 
   "post-vacancy-name-one": "BSF Constable",
-  "total-vacancy-count-one": "5000+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "CRPF Constable",
-  "total-vacancy-count-two": "5000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "CISF",
-  "total-vacancy-count-three": "3000+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "ITBP",
-  "total-vacancy-count-four": "2000+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "SSB",
-  "total-vacancy-count-five": "1500+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Assam Rifles",
-  "total-vacancy-count-six": "1000+",
-
+  "total-vacancy-count-six": "",
   "post-vacancy-name-seven": "NIA",
-  "total-vacancy-count-seven": "500+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Security",
-  "total-vacancy-count-eight": "500+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Support Staff",
-  "total-vacancy-count-nine": "300+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "200+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Subjects: GK, Maths, Reasoning, Language",
@@ -3444,16 +3440,16 @@
   "post-name-nine": "Court Magistrate",
   "post-name-ten": "Other Judiciary Posts",
 
-  "post-name-one-vacancy": "500+",
-  "post-name-two-vacancy": "200+",
-  "post-name-three-vacancy": "100+",
-  "post-name-four-vacancy": "50+",
-  "post-name-five-vacancy": "50+",
-  "post-name-six-vacancy": "30+",
-  "post-name-seven-vacancy": "20+",
-  "post-name-eight-vacancy": "20+",
-  "post-name-nine-vacancy": "20+",
-  "post-name-ten-vacancy": "10+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have LLB degree and meet state judiciary eligibility criteria",
 
@@ -3496,34 +3492,34 @@
   "subject-10-topics": "Judgement writing",
 
   "post-vacancy-name-one": "Civil Judge",
-  "total-vacancy-count-one": "500+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Judicial Magistrate",
-  "total-vacancy-count-two": "200+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "Senior Judge",
-  "total-vacancy-count-three": "100+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "District Judge",
-  "total-vacancy-count-four": "50+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Additional Judge",
-  "total-vacancy-count-five": "50+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Magistrate",
-  "total-vacancy-count-six": "30+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Family Court",
-  "total-vacancy-count-seven": "20+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Sessions Judge",
-  "total-vacancy-count-eight": "20+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Court Magistrate",
-  "total-vacancy-count-nine": "20+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "10+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: Objective Type Questions",
   "exam-pattern-two": "Mains: Descriptive Written Exam",
@@ -3575,7 +3571,7 @@
   "minimum-age": "18 Years",
   "maximum-age": "30 Years (Relaxation as per rules)",
 
-  "total-vacancy": "3000+ Posts",
+  "total-vacancy": " Posts",
 
   "post-name-one": "Social Security Assistant (SSA)",
   "post-name-two": "Assistant Section Officer (AO)",
@@ -3588,16 +3584,16 @@
   "post-name-nine": "Assistant Accountant",
   "post-name-ten": "Other EPFO Posts",
 
-  "post-name-one-vacancy": "1500+",
-  "post-name-two-vacancy": "800+",
-  "post-name-three-vacancy": "200+",
-  "post-name-four-vacancy": "150+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "100+",
-  "post-name-seven-vacancy": "80+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "20+",
-  "post-name-ten-vacancy": "10+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Graduate with computer knowledge",
 
@@ -3701,16 +3697,16 @@
   "post-name-nine": "Staff Nurse",
   "post-name-ten": "Other Staff Posts",
 
-  "post-name-one-vacancy": "800+",
-  "post-name-two-vacancy": "500+",
-  "post-name-three-vacancy": "300+",
-  "post-name-four-vacancy": "50+",
-  "post-name-five-vacancy": "50+",
-  "post-name-six-vacancy": "50+",
-  "post-name-seven-vacancy": "100+",
-  "post-name-eight-vacancy": "100+",
-  "post-name-nine-vacancy": "50+",
-  "post-name-ten-vacancy": "50+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have Graduation / Post Graduation with B.Ed (for teaching posts)",
 
@@ -3753,34 +3749,33 @@
   "subject-10-topics": "Latest updates",
 
   "post-vacancy-name-one": "PRT",
-  "total-vacancy-count-one": "800+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "TGT",
-  "total-vacancy-count-two": "500+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "PGT",
-  "total-vacancy-count-three": "300+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Principal",
-  "total-vacancy-count-four": "50+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Vice Principal",
-  "total-vacancy-count-five": "50+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Librarian",
-  "total-vacancy-count-six": "100+",
-
+  "total-vacancy-count-six": "",
   "post-vacancy-name-seven": "Clerk",
-  "total-vacancy-count-seven": "100+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Nurse",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Staff",
-  "total-vacancy-count-nine": "50+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "50+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (CBT)",
   "exam-pattern-two": "Subject + Teaching Aptitude",
@@ -3843,16 +3838,16 @@
   "post-name-nine": "Labour Officer",
   "post-name-ten": "Other PCS Posts",
 
-  "post-name-one-vacancy": "150+",
-  "post-name-two-vacancy": "150+",
-  "post-name-three-vacancy": "200+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "100+",
-  "post-name-seven-vacancy": "80+",
-  "post-name-eight-vacancy": "50+",
-  "post-name-nine-vacancy": "40+",
-  "post-name-ten-vacancy": "30+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be a graduate and meet state PSC eligibility criteria",
 
@@ -3895,34 +3890,33 @@
   "subject-10-topics": "Descriptive paper",
 
   "post-vacancy-name-one": "SDM",
-  "total-vacancy-count-one": "150+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "DSP",
-  "total-vacancy-count-two": "150+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "BDO",
-  "total-vacancy-count-three": "200+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "Tehsildar",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Excise Officer",
-  "total-vacancy-count-five": "100+",
-
+  "total-vacancy-count-five": "",
   "post-vacancy-name-six": "Tax Officer",
-  "total-vacancy-count-six": "100+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Supply Officer",
-  "total-vacancy-count-seven": "80+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "Assistant Commissioner",
-  "total-vacancy-count-eight": "50+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Labour Officer",
-  "total-vacancy-count-nine": "40+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "30+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Prelims: Objective Type",
   "exam-pattern-two": "Mains: Descriptive Papers",
@@ -3985,16 +3979,16 @@
   "post-name-nine": "Junior Stenographer",
   "post-name-ten": "Other Steno Posts",
 
-  "post-name-one-vacancy": "500+",
-  "post-name-two-vacancy": "1000+",
-  "post-name-three-vacancy": "100+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "80+",
-  "post-name-six-vacancy": "80+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "40+",
-  "post-name-nine-vacancy": "30+",
-  "post-name-ten-vacancy": "20+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must be 12th pass with stenography (shorthand + typing) skills",
 
@@ -4040,31 +4034,31 @@
   "total-vacancy-count-one": "500+",
 
   "post-vacancy-name-two": "Grade D",
-  "total-vacancy-count-two": "1000+",
+  "total-vacancy-count-two": "",
 
   "post-vacancy-name-three": "PA",
-  "total-vacancy-count-three": "100+",
+  "total-vacancy-count-three": "",
 
   "post-vacancy-name-four": "PS",
-  "total-vacancy-count-four": "100+",
+  "total-vacancy-count-four": "",
 
   "post-vacancy-name-five": "Typist",
-  "total-vacancy-count-five": "80+",
+  "total-vacancy-count-five": "",
 
   "post-vacancy-name-six": "Clerk",
-  "total-vacancy-count-six": "80+",
+  "total-vacancy-count-six": "",
 
   "post-vacancy-name-seven": "Office Staff",
-  "total-vacancy-count-seven": "50+",
+  "total-vacancy-count-seven": "",
 
   "post-vacancy-name-eight": "DEO",
-  "total-vacancy-count-eight": "40+",
+  "total-vacancy-count-eight": "",
 
   "post-vacancy-name-nine": "Junior Steno",
-  "total-vacancy-count-nine": "30+",
+  "total-vacancy-count-nine": "",
 
   "post-vacancy-name-ten": "Other Posts",
-  "total-vacancy-count-ten": "20+",
+  "total-vacancy-count-ten": "",
 
   "exam-pattern-one": "Computer Based Test (Objective Type)",
   "exam-pattern-two": "Subjects: Reasoning, GK, English",
@@ -4128,16 +4122,16 @@
   "post-name-nine": "Network Engineer",
   "post-name-ten": "Other IT Posts",
 
-  "post-name-one-vacancy": "300+",
-  "post-name-two-vacancy": "150+",
-  "post-name-three-vacancy": "150+",
-  "post-name-four-vacancy": "100+",
-  "post-name-five-vacancy": "100+",
-  "post-name-six-vacancy": "80+",
-  "post-name-seven-vacancy": "50+",
-  "post-name-eight-vacancy": "40+",
-  "post-name-nine-vacancy": "20+",
-  "post-name-ten-vacancy": "10+",
+  "post-name-one-vacancy": "",
+  "post-name-two-vacancy": "",
+  "post-name-three-vacancy": "",
+  "post-name-four-vacancy": "",
+  "post-name-five-vacancy": "",
+  "post-name-six-vacancy": "",
+  "post-name-seven-vacancy": "",
+  "post-name-eight-vacancy": "",
+  "post-name-nine-vacancy": "",
+  "post-name-ten-vacancy": "",
 
   "eligibility": "Candidate must have technical degree in Computer Science / IT or related field",
 
@@ -4180,7 +4174,7 @@
   "subject-10-topics": "IT trends",
 
   "post-vacancy-name-one": "Scientist B",
-  "total-vacancy-count-one": "300+",
+  "total-vacancy-count-one": "",
 
   "post-vacancy-name-two": "Scientist C",
   "total-vacancy-count-two": "150+",
