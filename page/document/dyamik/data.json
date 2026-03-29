@@ -1,0 +1,26 @@
+
+
+[
+
+
+
+{
+
+
+   "id":"Aadhaar-Card", 
+  "heading": "Aadhaar Card",
+  "introduction": "Aadhaar ek unique identity card hai jisme personal aur biometric details hoti hain.",
+
+  "eligibility": "Har Indian resident Aadhaar ke liye apply kar sakta hai.",
+
+  "document-one": "PAN Card / Voter ID",
+  "document-two": "Address Proof",
+  "document-three": "Birth Certificate",
+
+  "apply-link": "https://appointments.uidai.gov.in/",
+  "download-link": "https://eaadhaar.uidai.gov.in/",
+  "update-link": "https://uidai.gov.in/"
+}
+
+
+]

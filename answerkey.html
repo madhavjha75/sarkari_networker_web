@@ -13,6 +13,43 @@
 <link rel="canonical" href="https://www.sarkarinetworker.com/answerkey.html">
 
 
+
+
+
+<style>
+    #loadMoreBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+#loadMoreBtn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+
+/* Click Effect */
+#loadMoreBtn:active {
+  transform: scale(0.95);
+}
+
+/* जब disable हो */
+#loadMoreBtn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+</style>
+
+
 </head>
 
 <body>
@@ -44,16 +81,21 @@
 
 <h1 class="title">Answer Key</h1>
 
-<div class="content">
-
-<div class="job">
-    <a href="">Comming soon</a>
-    
-
-
-
 
 </div>
+
+
+
+
+<div class="content" id="job-container"></div>
+
+<button id="loadMoreBtn">Load More</button>
+
+<script src="answerkey-json-script/script.js"></script>
+
+
+
+
 
 
 
@@ -100,6 +142,7 @@ document.getElementById("menu").classList.toggle("show");
 }
 
 </script>
+<script src="answerkey-json-script/script.js"></script>
 
 </body>
 </html>
