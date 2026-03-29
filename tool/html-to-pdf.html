@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HTML to PDF Converter - Sarkari Network</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(135deg,#667eea,#764ba2);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  background:#fff;
+  padding:25px;
+  border-radius:15px;
+  width:380px;
+  text-align:center;
+  box-shadow:0 15px 35px rgba(0,0,0,0.2);
+  animation:fadeIn 1s ease;
+}
+
+h2{
+  margin-bottom:15px;
+}
+
+input[type="file"]{
+  width:100%;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  margin-bottom:10px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#667eea;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#5a67d8;
+}
+
+iframe{
+  width:100%;
+  height:150px;
+  border:1px solid #ddd;
+  margin:10px 0;
+  border-radius:8px;
+}
+
+.status{
+  font-size:14px;
+  margin-top:10px;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>HTML to PDF</h2>
+
+  <input type="file" id="htmlFile" accept=".html">
+
+  <iframe id="preview"></iframe>
+
+  <button onclick="convertToPDF()">Convert to PDF</button>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+const fileInput = document.getElementById("htmlFile");
+const preview = document.getElementById("preview");
+
+fileInput.addEventListener("change", function(){
+  const file = this.files[0];
+  if(file){
+    const reader = new FileReader();
+    reader.onload = function(e){
+      preview.srcdoc = e.target.result;
+    }
+    reader.readAsText(file);
+  }
+});
+
+function convertToPDF(){
+  const status = document.getElementById("status");
+
+  if(!preview.srcdoc){
+    status.innerText = "Upload HTML file first!";
+    return;
+  }
+
+  status.innerText = "Converting...";
+
+  const element = document.createElement("div");
+  element.innerHTML = preview.srcdoc;
+
+  html2pdf()
+    .from(element)
+    .save("converted.pdf")
+    .then(()=>{
+      status.innerText = "Done! Download started 🚀";
+    });
+}
+</script>
+
+</body>
+</html>

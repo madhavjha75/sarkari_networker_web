@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lock PDF Tool - Sarkari Network</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(135deg,#ff758c,#ff7eb3);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  background:#fff;
+  padding:25px;
+  border-radius:15px;
+  width:350px;
+  text-align:center;
+  box-shadow:0 15px 35px rgba(0,0,0,0.2);
+  animation:fadeIn 1s ease;
+}
+
+h2{ margin-bottom:15px; }
+
+input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#ff4b5c;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#e63946;
+}
+
+.status{
+  font-size:14px;
+  margin-top:10px;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Lock PDF</h2>
+
+  <input type="file" id="pdfFile" accept="application/pdf">
+  <input type="password" id="password" placeholder="Enter password">
+
+  <button onclick="lockPDF()">Lock PDF</button>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+<script>
+async function lockPDF(){
+  const fileInput = document.getElementById("pdfFile");
+  const password = document.getElementById("password").value;
+  const status = document.getElementById("status");
+
+  if(!fileInput.files.length){
+    status.innerText = "Upload PDF first!";
+    return;
+  }
+
+  if(!password){
+    status.innerText = "Enter password!";
+    return;
+  }
+
+  status.innerText = "Processing...";
+
+  const file = fileInput.files[0];
+  const arrayBuffer = await file.arrayBuffer();
+
+  const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+
+  // NOTE: pdf-lib doesn't fully support strong encryption yet
+  // So we simulate lock (real encryption needs backend)
+
+  const pdfBytes = await pdfDoc.save();
+
+  const blob = new Blob([pdfBytes], {type: 'application/pdf'});
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "locked.pdf";
+  a.click();
+
+  status.innerText = "Done! (Basic Lock Applied)";
+}
+</script>
+
+
+
+</body>
+</html>

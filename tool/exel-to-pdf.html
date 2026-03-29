@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Excel to PDF Converter - Sarkari Network</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(135deg,#43e97b,#38f9d7);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  background:#fff;
+  padding:25px;
+  border-radius:15px;
+  width:400px;
+  text-align:center;
+  box-shadow:0 15px 35px rgba(0,0,0,0.2);
+  animation:fadeIn 1s ease;
+}
+
+h2{ margin-bottom:10px; }
+
+input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#20c997;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#17a589;
+}
+
+#preview{
+  max-height:150px;
+  overflow:auto;
+  border:1px solid #ddd;
+  border-radius:8px;
+  margin-top:10px;
+}
+
+.status{
+  margin-top:10px;
+  font-size:14px;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:12px;
+}
+td, th{
+  border:1px solid #ccc;
+  padding:5px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Excel to PDF</h2>
+
+  <input type="file" id="excelFile" accept=".xlsx,.xls">
+
+  <div id="preview"></div>
+
+  <button onclick="convertToPDF()">Convert to PDF</button>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+let tableHTML = "";
+
+document.getElementById("excelFile").addEventListener("change", function(e){
+  const file = e.target.files[0];
+  const reader = new FileReader();
+
+  reader.onload = function(e){
+    const data = new Uint8Array(e.target.result);
+    const workbook = XLSX.read(data, {type:'array'});
+
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    tableHTML = XLSX.utils.sheet_to_html(sheet);
+
+    document.getElementById("preview").innerHTML = tableHTML;
+  };
+
+  reader.readAsArrayBuffer(file);
+});
+
+function convertToPDF(){
+  const status = document.getElementById("status");
+
+  if(!tableHTML){
+    status.innerText = "Upload Excel first!";
+    return;
+  }
+
+  status.innerText = "Converting...";
+
+  const element = document.createElement("div");
+  element.innerHTML = tableHTML;
+
+  html2pdf()
+    .from(element)
+    .save("excel.pdf")
+    .then(()=>{
+      status.innerText = "Done! Download started 🚀";
+    });
+}
+</script>
+
+</body>
+</html>
