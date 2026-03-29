@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image & PDF Compressor Free Online</title>
+
+<meta name="description" content="Compress image and PDF files online for free. Reduce file size quickly without losing quality.">
+
+<meta name="keywords" content="image compressor, pdf compressor, reduce image size, compress pdf online">
+
+<meta name="robots" content="index, follow">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+
+<style>
+:root{
+  --primary:#2563eb;
+  --bg:#f9fafb;
+}
+
+body{
+  margin:0;
+  font-family:system-ui;
+  background:var(--bg);
+}
+
+.container{
+  max-width:520px;
+  margin:50px auto;
+  padding:20px;
+}
+
+.card{
+  background:#fff;
+  border-radius:14px;
+  padding:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.06);
+  animation:fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(20px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+h1{margin-bottom:5px;}
+.sub{color:#666;font-size:13px;margin-bottom:15px;}
+
+.upload{
+  border:2px dashed #ddd;
+  border-radius:12px;
+  padding:30px;
+  text-align:center;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.upload:hover{
+  border-color:var(--primary);
+  background:#f0f6ff;
+  transform:scale(1.02);
+}
+
+input{display:none;}
+
+.file{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#f3f4f6;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  animation:fadeIn 0.4s ease;
+}
+
+.file img{
+  width:40px;
+  height:40px;
+  border-radius:8px;
+}
+
+.meta{font-size:12px;color:#777;}
+
+.controls{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+.controls input, .controls select{
+  flex:1;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  transition:0.2s;
+}
+
+.controls input:focus{
+  border-color:var(--primary);
+  outline:none;
+}
+
+.btn{
+  width:100%;
+  margin-top:15px;
+  padding:13px;
+  border:none;
+  border-radius:10px;
+  background:var(--primary);
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 5px 15px rgba(37,99,235,0.3);
+}
+
+.result-item{
+  display:flex;
+  justify-content:space-between;
+  background:#f3f4f6;
+  padding:12px;
+  border-radius:10px;
+  margin-top:10px;
+  animation:fadeIn 0.5s ease;
+}
+
+.download{
+  background:#10b981;
+  color:#fff;
+  padding:6px 12px;
+  border-radius:6px;
+  font-size:12px;
+  transition:0.2s;
+}
+
+.download:hover{
+  transform:scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="card">
+
+<h1>Compress Files</h1>
+<div class="sub">Smooth fast compression tool</div>
+
+<label class="upload">
+  Upload Files
+  <input type="file" id="fileInput" multiple accept="image/*,.pdf">
+</label>
+
+<div id="preview"></div>
+
+<div class="controls">
+  <input type="number" id="targetSize" placeholder="Size">
+  <select id="unit">
+    <option value="kb">KB</option>
+    <option value="mb">MB</option>
+  </select>
+</div>
+
+<button class="btn" onclick="process()">Compress</button>
+
+<div id="result"></div>
+
+</div>
+</div>
+
+<script>
+const input=document.getElementById("fileInput");
+const preview=document.getElementById("preview");
+
+input.addEventListener("change",()=>{
+  preview.innerHTML="";
+  Array.from(input.files).forEach(f=>{
+    const div=document.createElement("div");
+    div.className="file";
+
+    let icon=f.type.includes("image")
+      ? `<img src="${URL.createObjectURL(f)}">`
+      : `📄`;
+
+    div.innerHTML=`
+      ${icon}
+      <div>
+        <strong>${f.name}</strong><br>
+        <span class="meta">${(f.size/1024).toFixed(1)} KB</span>
+      </div>
+    `;
+
+    preview.appendChild(div);
+  });
+});
+
+function getTargetKB(){
+  let s=parseFloat(document.getElementById("targetSize").value||200);
+  let u=document.getElementById("unit").value;
+  return u==="mb"?s*1024:s;
+}
+
+async function compressImage(f){
+  let q=0.9,t=getTargetKB(),b;
+
+  for(let i=0;i<12;i++){
+    b=await new Promise(r=>{
+      const reader=new FileReader();
+      reader.onload=e=>{
+        const img=new Image();
+        img.src=e.target.result;
+        img.onload=()=>{
+          const c=document.createElement("canvas");
+          c.width=img.width;
+          c.height=img.height;
+          c.getContext("2d").drawImage(img,0,0);
+          r(dataURLtoBlob(c.toDataURL("image/jpeg",q)));
+        };
+      };
+      reader.readAsDataURL(f);
+    });
+
+    if(b.size/1024<=t)break;
+    q-=0.08;
+  }
+
+  return b;
+}
+
+async function compressPDF(f){
+  const bytes=await f.arrayBuffer();
+  const pdf=await PDFLib.PDFDocument.load(bytes);
+  const newPdf=await PDFLib.PDFDocument.create();
+  const pages=await newPdf.copyPages(pdf,pdf.getPageIndices());
+  pages.forEach(p=>newPdf.addPage(p));
+  const out=await newPdf.save({useObjectStreams:true});
+  return new Blob([out],{type:"application/pdf"});
+}
+
+async function process(){
+  const files=input.files;
+  const result=document.getElementById("result");
+  result.innerHTML="";
+
+  for(let f of files){
+    let blob=f.type.includes("image")
+      ? await compressImage(f)
+      : await compressPDF(f);
+
+    const url=URL.createObjectURL(blob);
+
+    const div=document.createElement("div");
+    div.className="result-item";
+
+    div.innerHTML=`
+      <div>
+        <strong>${f.name}</strong><br>
+        <span class="meta">${(f.size/1024).toFixed(1)} → ${(blob.size/1024).toFixed(1)} KB</span>
+      </div>
+      <a href="${url}" download="compressed_${f.name}">
+        <span class="download">Download</span>
+      </a>
+    `;
+
+    result.appendChild(div);
+  }
+}
+
+function dataURLtoBlob(d){
+  const arr=d.split(','),m=arr[0].match(/:(.*?);/)[1];
+  const b=atob(arr[1]);let n=b.length,u=new Uint8Array(n);
+  while(n--)u[n]=b.charCodeAt(n);
+  return new Blob([u],{type:m});
+}
+</script>
+
+</body>
+</html>
