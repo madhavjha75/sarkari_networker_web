@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  fetch("data.json") // 👉 अपना JSON file path डालना
+  fetch("data.json") // 👉
     .then(res => res.json())
     .then(data => {
 
