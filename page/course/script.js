@@ -1,3 +1,4 @@
+
 function getCourseId() {
   const params = new URLSearchParams(window.location.search);
   return params.get("course");
@@ -7,15 +8,26 @@ async function loadCourse() {
 
   const id = getCourseId();
 
-  try {
+  if (!id) {
+    console.log("No course ID in URL");
+    return;
+  }
 
-    const response = await fetch("course/data.json");
+  try {
+    const response = await fetch("data.json");
     const data = await response.json();
 
-    const course = data[id];
+    console.log("Loaded Data:", data);
 
-    if (!course) return;
+    // ✅ ARRAY search
+    const course = data.find(c => c.id === id);
 
+    if (!course) {
+      console.log("Course not found");
+      return;
+    }
+
+    // ✅ Data fill
     for (let key in course) {
 
       const element = document.getElementById(key);
@@ -29,9 +41,19 @@ async function loadCourse() {
       }
     }
 
+    // 🔥 SEO auto (bonus)
+    document.title = course["course-heading"];
+
   } catch (error) {
     console.error("Error loading course:", error);
   }
 }
 
+// ✅ menu fix
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("show");
+}
+
+// ✅ run
 window.onload = loadCourse;
+
