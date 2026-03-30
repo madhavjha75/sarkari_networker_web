@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMI Calculator - Sarkari Networker</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.container {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Result */
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>⚖️ BMI Calculator</h2>
+
+  <input type="number" id="weight" placeholder="Weight (kg)">
+  <input type="number" id="height" placeholder="Height (cm)">
+
+  <button onclick="calculateBMI()">Calculate BMI</button>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script>
+function calculateBMI() {
+  let weight = document.getElementById("weight").value;
+  let height = document.getElementById("height").value;
+
+  if (!weight || !height) {
+    document.getElementById("result").innerText = "⚠️ Fill all fields";
+    return;
+  }
+
+  let h = height / 100;
+  let bmi = weight / (h * h);
+  bmi = bmi.toFixed(1);
+
+  let category = "";
+
+  if (bmi < 18.5) category = "Underweight 😟";
+  else if (bmi < 24.9) category = "Normal 👍";
+  else if (bmi < 29.9) category = "Overweight ⚠️";
+  else category = "Obese 🚨";
+
+  document.getElementById("result").innerHTML =
+    `BMI: <b>${bmi}</b><br>${category}`;
+}
+</script>
+
+</body>
+</html>

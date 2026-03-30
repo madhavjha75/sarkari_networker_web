@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Calculator - Sarkari Networker</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>🎂 Age Calculator</h2>
+
+  <input type="date" id="dob">
+  <button onclick="calculateAge()">Calculate Age</button>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script>
+function calculateAge() {
+  let dob = document.getElementById("dob").value;
+
+  if (!dob) {
+    document.getElementById("result").innerText = "⚠️ Please select your DOB";
+    return;
+  }
+
+  let birthDate = new Date(dob);
+  let today = new Date();
+
+  let years = today.getFullYear() - birthDate.getFullYear();
+  let months = today.getMonth() - birthDate.getMonth();
+  let days = today.getDate() - birthDate.getDate();
+
+  if (days < 0) {
+    months--;
+    days += 30;
+  }
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  document.getElementById("result").innerHTML =
+    `🎉 <b>${years}</b> Years <br> 📅 ${months} Months <br> 🗓️ ${days} Days`;
+}
+</script>
+
+</body>
+</html>
