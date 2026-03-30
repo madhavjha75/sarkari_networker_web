@@ -1,25 +1,50 @@
+[{
+
+  "id": "aadhar",
 
 
-[
+  "title": "Aadhaar Card Online Apply 2026 - Download, Update, Status Check",
 
+  "description": "Aadhaar Card India ka ek important identity proof hai. Yahan se aap Aadhaar card online apply, download, update aur status check kar sakte hain.",
 
+  "keywords": "aadhaar card, aadhaar card apply online, aadhaar download, aadhaar update, uidai aadhaar, aadhaar status check, aadhaar correction, aadhaar card 2026",
 
-{
+  "course-heading": "Aadhaar Card Full Details",
 
+  "section-one": "Introduction",
+  "section-one-content": "Aadhaar ek unique identity card hai.",
 
-   "id":"Aadhaar-Card", 
-  "heading": "Aadhaar Card",
-  "introduction": "Aadhaar ek unique identity card hai jisme personal aur biometric details hoti hain.",
+  "section-two": "Eligibility",
+  "section-two-content": "Har Indian apply kar sakta hai.",
 
-  "eligibility": "Har Indian resident Aadhaar ke liye apply kar sakta hai.",
+  "section-three": "Documents",
+  "section-three-content": "PAN Card, Voter ID, Address Proof",
 
-  "document-one": "PAN Card / Voter ID",
-  "document-two": "Address Proof",
-  "document-three": "Birth Certificate",
+  "section-four": "Benefits",
+  "section-four-content": "Identity Proof, Bank Account, Subsidy",
 
-  "apply-link": "https://appointments.uidai.gov.in/",
-  "download-link": "https://eaadhaar.uidai.gov.in/",
-  "update-link": "https://uidai.gov.in/"
+  "section-five": "Process",
+  "section-five-content": "Form fill karo, document do, biometric karo",
+
+  "section-six": "Fees",
+  "section-six-content": "Free hai",
+
+  "section-seven": "Time",
+  "section-seven-content": "7-15 din",
+
+  "section-eight": "Update",
+  "section-eight-content": "Online ya center par",
+
+  "section-nine": "Important",
+  "section-nine-content": "Mobile link zaruri hai",
+
+  "section-ten": "Helpline",
+  "section-ten-content": "1947",
+
+  "section-eleven": "Official Website",
+  "section-eleven-content": "https://uidai.gov.in",
+
+  "apply-link": "https://uidai.gov.in"
 }
 
 

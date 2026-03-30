@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aadhaar Pro Max</title>
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:#fff;
+}
+
+/* PROGRESS */
+.progress{
+position:fixed;
+top:0;
+left:0;
+height:4px;
+width:0;
+background:#00e5ff;
+z-index:9999;
+}
+
+/* NAVBAR */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 5%;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.menu a{
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#00e5ff;
+}
+
+.menu-btn{
+display:none;
+font-size:26px;
+cursor:pointer;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+opacity:.8;
+}
+
+/* LAYOUT */
+.wrapper{
+display:grid;
+grid-template-columns:260px 1fr;
+gap:20px;
+width:95%;
+margin:auto;
+}
+
+/* SIDEBAR */
+.sidebar{
+background:rgba(255,255,255,0.08);
+padding:20px;
+border-radius:12px;
+backdrop-filter:blur(10px);
+position:sticky;
+top:80px;
+height:fit-content;
+}
+
+.sidebar a{
+display:block;
+padding:10px;
+margin:6px 0;
+color:#fff;
+text-decoration:none;
+border-radius:6px;
+transition:.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active{
+background:#00e5ff;
+color:#000;
+}
+
+/* CONTENT */
+.content{
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:12px;
+line-height:1.8;
+animation:fade .4s ease;
+}
+
+.content h2{
+margin-top:20px;
+border-left:4px solid #00e5ff;
+padding-left:10px;
+}
+
+.section{
+display:none;
+}
+
+.section.active{
+display:block;
+}
+
+/* BUTTON STYLE */
+.btn{
+display:inline-block;
+padding:10px 15px;
+margin-top:10px;
+background:#00e5ff;
+color:#000;
+border-radius:6px;
+text-decoration:none;
+transition:.3s;
+}
+
+
+
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:rgba(0,0,0,0.3);
+}
+
+/* ANIMATION */
+@keyframes fade{
+from{opacity:0;transform:translateY(10px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+/* MOBILE */
+@media(max-width:900px){
+
+.wrapper{
+grid-template-columns:1fr;
+}
+
+.sidebar{
+display:flex;
+overflow-x:auto;
+gap:10px;
+}
+
+.sidebar a{
+white-space:nowrap;
+}
+
+}
+
+/* SMALL MOBILE */
+@media(max-width:600px){
+
+.menu{
+display:none;
+flex-direction:column;
+background:#0f2027;
+position:absolute;
+top:60px;
+left:0;
+width:100%;
+}
+
+.menu-btn{
+display:block;
+}
+
+.show{
+display:flex;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+
+
+
+
+
+/* MOBILE MENU IMPROVED */
+.menu{
+display:flex;
+gap:5px;
+}
+
+
+
+.menu{
+position:fixed;
+top:0;
+left:-100%;
+width:75%;
+height:100vh;
+background:rgba(15,32,39,0.95);
+backdrop-filter:blur(15px);
+flex-direction:column;
+padding:80px 20px;
+transition:1s ease;
+z-index:999;
+}
+
+.menu a{
+padding:12px;
+font-size:18px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* SHOW MENU */
+.menu.show{
+left:0;
+}
+
+/* OVERLAY */
+.overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(3px);
+opacity:0;
+pointer-events:none;
+transition:.3s;
+z-index:998;
+}
+
+.overlay.active{
+opacity:1;
+pointer-events:auto;
+}
+
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="navbar">
+<div class="logo">Sarkari Networker</div>
+
+<div class="menu">
+
+
+<a href="index.html">Home</a>
+<a href="latest1.html">Latest Job</a>
+<a href="admitcard.html">Admit Card</a>
+<a href="addmission.html">Admission</a>
+<a href="result.html">Result</a>
+<a href="syllabus.html">Syllabus</a>
+<a href="answerkey.html">Answer Key</a>
+<a href="intership.html">Internship</a>
+<a href="newspaper.html">Newspaper</a>
+<a href="page/course/full-course.html">Course</a>
+<a href="document.html">Document</a>
+
+</div>
+
+<div class="menu-btn">☰</div>
+</div>
+
+<div class="hero">
+<h1>Aadhaar Card</h1>
+<p>All Details in One Place</p>
+</div>
+
+<div class="wrapper">
+
+<div class="sidebar">
+<a href="#s1">Aadhaar</a>
+<a href="#s2">Eligibility</a>
+<a href="#s3">Documents</a>
+<a href="#s4">Apply</a>
+<a href="#s5">Download</a>
+<a href="#s6">Update</a>
+
+
+</div>
+
+
+<div class="content">
+
+<div class="section active" id="s1">
+<h2 id="heading"></h2>
+<p id="introduction"></p>
+</div>
+
+<div class="section" id="s2">
+<h2>Eligibility</h2>
+<p id="eligibility"></p>
+</div>
+
+<div class="section" id="s3">
+<h2>Documents</h2>
+<ul>
+<li id="document-one"></li>
+<li id="document-two"></li>
+<li id="document-three"></li>
+</ul>
+</div>
+
+<div class="section" id="s4">
+<h2>Apply</h2>
+<a href="" class="btn" id="apply-link">Apply Now</a>
+</div>
+
+<div class="section" id="s5">
+<h2>Download</h2>
+<a href="" class="btn" id="download-link">Download Aadhaar</a>
+</div>
+
+<div class="section" id="s6">
+<h2>Update</h2>
+<a href="https://uidai.gov.in/" class="btn" id="update-link">Update Details</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>© 2026 Sarkari Network</footer>
+
+<script>
+
+// MENU
+document.querySelector(".menu-btn").onclick=()=>{
+document.querySelector(".menu").classList.toggle("show");
+};
+
+// PROGRESS
+window.onscroll=()=>{
+let s=window.scrollY;
+let h=document.body.scrollHeight-window.innerHeight;
+document.getElementById("progress").style.width=(s/h)*100+"%";
+};
+
+// SECTION SWITCH
+const links=document.querySelectorAll(".sidebar a");
+const sections=document.querySelectorAll(".section");
+
+links.forEach(link=>{
+link.onclick=(e)=>{
+e.preventDefault();
+
+let id=link.getAttribute("href").replace("#","");
+
+sections.forEach(s=>s.classList.remove("active"));
+document.getElementById(id).classList.add("active");
+
+links.forEach(l=>l.classList.remove("active"));
+link.classList.add("active");
+};
+});
+
+</script>
+
+
+<script>
+
+
+    let heading =  document.getElementById("heading");
+    heading.id=`${id}`;
+    
+
+
+</script>
+
+<script src="dynamik/script.js"></script>
+
+</body>
+</html>

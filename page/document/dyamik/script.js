@@ -1,43 +1,53 @@
-document.addEventListener("DOMContentLoaded", () => {
+// ================= STEP 1: URL se id lena =================
+const params = new URLSearchParams(window.location.search);
 
-  fetch("dynamik/data.json")
-    .then(res => {
-      if (!res.ok) {
-        throw new Error("JSON load nahi hua");
-      }
-      return res.json();
-    })
-    .then(data => {
+// ?id=aadhar se "aadhar" nikalega
+const pageId = params.get("id");
 
-      // Text Data
-      setText("heading", data.heading);
-      setText("introduction", data.introduction);
-      setText("eligibility", data.eligibility);
 
-      setText("document-one", data["document-one"]);
-      setText("document-two", data["document-two"]);
-      setText("document-three", data["document-three"]);
+// ================= STEP 2: JSON load =================
+fetch("data.json")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
 
-      // Links
-      setLink("apply-link", data["apply-link"]);
-      setLink("download-link", data["download-link"]);
-      setLink("update-link", data["update-link"]);
-
-    })
-    .catch(err => {
-      console.error("Error:", err);
+    // ================= STEP 3: sahi object dhundhna =================
+    const page = data.find(function(item) {
+      return item.id === pageId;
     });
 
-});
+    // ================= STEP 4: agar nahi mila =================
+    if (!page) {
+      document.body.innerHTML = "<h2>Page Not Found</h2>";
+      return;
+    }
+
+    // ================= STEP 5: data ko HTML me dalna =================
+    for (let key in page) {
+
+      const element = document.getElementById(key);
+
+      if (element) {
+
+        // link case
+        if (key === "apply-link") {
+          element.href = page[key];
+        } else {
+          element.innerText = page[key];
+        }
+
+      }
+
+    }
+
+  })
+  .catch(function(error) {
+    console.log("Error:", error);
+  });
 
 
-// Helper Functions (Code ko clean banane ke liye)
-function setText(id, value) {
-  const el = document.getElementById(id);
-  if (el && value) el.innerText = value;
-}
-
-function setLink(id, url) {
-  const el = document.getElementById(id);
-  if (el && url) el.href = url;
+// ================= MENU =================
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("show");
 }

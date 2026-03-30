@@ -66,6 +66,7 @@
     "course-duration": "4 Hours (Self Paced)",
     "course-level": "Beginner",
     "course-language": "English",
+    
     "course-syllabus-subject": "Data Visualization",
     "course-syllabus-topics": "Hello Seaborn, Line Charts, Bar Charts & Heatmaps, Scatter Plots, Distributions (Histogram & Density), Choosing Plot Types, Custom Styling, Final Project, Creating Notebooks",
     "course-fee": "Free",
@@ -84,7 +85,7 @@
     "course-duration": "Self Paced (Approx 300 Hours with practice & projects)",
     "course-level": "Beginner to Intermediate",
     "course-language": "English",
-    "course-syllabus-subject": "Python Programming",
+   "course-syllabus-subject": "Python Programming",
     "course-syllabus-topics": "Python Basics, Variables, Loops, Functions, Data Structures, Algorithms, File Handling, Projects, Scientific Computing, Problem Solving",
     "course-fee": "Free",
     "apply-link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
@@ -102,6 +103,7 @@
     "course-duration": "Self Paced (Approx 8-12 Weeks depending on learning speed)",
     "course-level": "Intermediate",
     "course-language": "English",
+   
     "course-syllabus-subject": "Web Development",
     "course-syllabus-topics": "HTML, CSS, JavaScript, Python, SQL, Django Framework, React, Bootstrap, API Development, Web App Deployment",
     "course-fee": "Free (Certificate optional paid on edX)",
@@ -118,7 +120,7 @@
     "course-description": "Yeh course IndiaAI Mission ke under aata hai jisme AI basics, Generative AI tools, prompt likhne ka tarika (CRAFT method), aur AI ka safe aur ethical use sikhaya jata hai. Yeh beginner-friendly aur self-paced course hai, jise koi bhi bina coding knowledge ke kar sakta hai.",
     "course-duration": "4.5 Hours (Self Paced)",
     "course-level": "Beginner",
-    "course-certificate": "Yes, Certificate of Completion",
+     "course-certificate": "Yes, Certificate of Completion",
     "course-language": "Hindi / English",
     "course-syllabus-subject": "Artificial Intelligence",
     "course-syllabus-topics": "What is AI, AI Basics, Generative AI Tools, Prompt Engineering (CRAFT), AI for Study & Planning, AI Ethics (FAST Framework), Future of AI",
