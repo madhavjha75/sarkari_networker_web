@@ -1,0 +1,12 @@
+ {  "id":"web",
+    "course-heading": "Web Development Course",
+    "course-introduction": "यह कोर्स आपको HTML, CSS, JavaScript सिखाएगा",
+    "course-description": "Frontend + basic backend development",
+    "course-duration": "3 Months",
+    "course-level": "Beginner",
+    "course-language": "Hindi / English",
+    "course-syllabus-subject": "Web Development",
+    "course-syllabus-topics": "HTML, CSS, JavaScript, SEO",
+    "course-fee": "₹1999",
+    "apply-link": "https://example.com"
+  }
