@@ -3,7 +3,7 @@ let currentIndex = 0;
 const limit = 10;
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("answerkey-json-script/data.json")
+  fetch("admitcard-json-script/data.json")
     .then(res => res.json())
     .then(data => {
       allJobs = data;
