@@ -14,7 +14,7 @@ async function loadCourse() {
   }
 
   try {
-    const response = await fetch("data.json");
+    const response = await fetch("data.json?v=8");
     const data = await response.json();
 
     console.log("Loaded Data:", data);
