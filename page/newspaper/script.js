@@ -106,6 +106,7 @@ async function loadJSON() {
       btn.href = pageData["app-link"] || "#";
     }
 
+
     setText("topic-details", pageData["topic-details"]);
     setText("topic-detail-one", pageData["topic-detail-one"]);
     setText("topic-detail-two", pageData["topic-detail-two"]);
