@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title></title>
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#fff;color:#000;}
+
+/* Top Bar */
+.topbar{
+background:#000;
+color:#fff;
+padding:8px 5%;
+display:flex;
+justify-content:space-between;
+font-size:14px;
+flex-wrap:wrap;
+}
+
+/* Navbar */
+.navbar{
+background:linear-gradient(90deg,#007bff,#00c6ff);
+padding:12px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:#fff;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{font-size:20px;font-weight:bold;}
+
+.menu-toggle{
+display:none;
+font-size:22px;
+cursor:pointer;
+}
+
+.nav-links{
+display:flex;
+}
+
+.nav-links a{
+color:#fff;
+margin-left:15px;
+text-decoration:none;
+}
+
+/* Category */
+.category{
+background:#f1f1f1;
+padding:10px 5%;
+display:flex;
+gap:15px;
+overflow-x:auto;
+}
+
+/* Banner */
+.banner{
+height:250px;
+background:url() center/cover no-repeat;
+display:flex;
+align-items:flex-end;
+padding:15px;
+}
+
+.banner h1{
+background:rgba(0,0,0,0.6);
+color:#fff;
+padding:8px 12px;
+border-radius:8px;
+font-size:20px;
+}
+
+/* Container */
+.container{
+width:95%;
+max-width:900px;
+margin:auto;
+}
+
+/* Card */
+.card{
+background:#fff;
+padding:15px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn{
+display:inline-block;
+padding:10px 15px;
+background:#007bff;
+color:#fff;
+border-radius:5px;
+text-decoration:none;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.menu-toggle{display:block;}
+
+.nav-links{
+display:none;
+flex-direction:column;
+background:#007bff;
+position:absolute;
+top:55px;
+right:0;
+width:200px;
+padding:10px;
+}
+
+.nav-links a{margin:10px 0;}
+
+.nav-links.active{display:flex;}
+
+.banner{height:200px;}
+.banner h1{font-size:16px;}
+
+.topbar{flex-direction:column;gap:5px;}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+<div>📅 2026 | Sarkari Networker</div>
+<div>Latest Update Website</div>
+</div>
+
+<!-- Navbar -->
+<div class="navbar">
+<div class="logo">Sarkari Networker</div>
+
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+<div class="nav-links" id="menu">
+<a href="#">होम</a>
+<a href="#">रिजल्ट</a>
+<a href="#">नौकरी</a>
+<a href="#">एडमिट कार्ड</a>
+</div>
+</div>
+
+<!-- Category -->
+<div class="category">
+<a href="#">UP Board</a>
+<a href="#">SSC</a>
+<a href="#">Railway</a>
+<a href="#">Police</a>
+</div>
+
+<!-- Banner -->
+<div class="banner" id="banner">
+<h1 id="topic"></h1>
+</div>
+
+<div class="container">
+
+<!-- Intro -->
+<div class="card">
+<p id="topic-introduction">
+
+</p>
+</div>
+
+<!-- Highlight -->
+<div class="card">
+<h2 id="topic-highlight"></h2>
+<p id="topic-highlight-text"></p>
+</div>
+
+<!-- Button -->
+<div class="card">
+<h2 id="topic-button"></h2>
+<a href="#" class="btn" id="app-link"></a>
+</div>
+
+<!-- Details -->
+<div class="card">
+<h2 id="topic-details"></h2>
+<ul>
+<li id="topic-detail-one"></li>
+<li id="topic-detail-two"></li>
+<li id="topic-detail-three"></li>
+<li id="topic-detail-four"></li>
+<li id="topic-detail-five"></li>
+</ul>
+</div>
+
+<!-- Steps -->
+<div class="card">
+<h2 id="topic-steps"></h2>
+<ol>
+<li id="topic-step-one"></li>
+<li id="topic-step-two"></li>
+<li id="topic-step-three"></li>
+<li id="topic-step-four"></li>
+</ol>
+</div>
+
+<!-- Extra -->
+<div class="card">
+<h2 id="topic-extra"></h2>
+<p id="topic-extra-info"></p>
+
+</p>
+</div>
+
+<!-- FAQ -->
+<div class="card">
+<h2>❓ FAQ</h2>
+
+<p><b>प्रश्न:</b> </p>
+<p><b>उत्तर:</b></p>
+
+<p><b>प्रश्न:</b></p>
+<p><b>उत्तर:</b></p>
+
+</div>
+
+</div>
+
+<script>
+function toggleMenu(){
+document.getElementById("menu").classList.toggle("active");
+}
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
