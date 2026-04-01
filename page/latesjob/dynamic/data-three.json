@@ -28,11 +28,11 @@
 
   "exam-mode": "Written Exam + Interview + Document Verification",
 
-  "notification-date": "2026 (Expected)",
-  "apply-start-date": "To Be Announced",
+  "notification-date": "",
+  "apply-start-date": "",
   "apply-last-date": "11 aprail",
   "exam-date": "To Be Announced",
-  "admitcard-date": "Before Exam",
+  "admitcard-date": "comming",
   "result-date": "After Exam",
   "answerkey-date": "After Exam",
 
@@ -48,11 +48,11 @@
   "maximum-age": "35 Years",
   "age-relation": "OBC ke liye 3 saal aur SC/ST ke liye 5 saal ki age relaxation applicable hai as per rules.",
 
-  "gen": "As per official notification (category wise vacancy mentioned in official PDF)",
-  "obc": "As per official notification (reservation applicable)",
-  "sc": "As per official notification (reservation applicable)",
-  "st": "As per official notification (reservation applicable)",
-  "ews": "As per official notification (EWS quota applicable)",
+  "gen": "",
+  "obc": "",
+  "sc": "",
+  "st": "",
+  "ews": "",
 
   "total-vacancy": "Multiple vacancies (Clerk, Assistant, Officer posts included)",
 
