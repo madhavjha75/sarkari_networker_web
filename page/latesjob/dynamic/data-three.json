@@ -45,11 +45,11 @@
   "maximum-age": "30 Years",
   "age-relation": "OBC: 3 Years, SC/ST: 5 Years relaxation",
 
-  "gen": "As per official",
-  "obc": "As per offici",
-  "sc": "As per official n",
-  "st": "As per official ",
-  "ews": "As per ",
+  "gen": "",
+  "obc": "",
+  "sc": "",
+  "st": " ",
+  "ews": "",
 
   "total-vacancy": "100 Posts",
 
@@ -143,26 +143,26 @@
   "faq-five": "Exam kab hoga?",
   "faq-five-para": "12 April 2026 (Tentative)",
 
-  "internal-link-text-one": "SSC JE 2026 Online Form",
-  "internal-link-text-two": "Railway JE Recruitment 2026",
-  "internal-link-text-three": "UPSSSC JE Vacancy 2026",
-  "internal-link-text-four": "SSC CHSL 2026 Online Form",
-  "internal-link-text-five": "UP Police Bharti 2026",
-  "internal-link-text-six": "Railway Group D 2026",
-  "internal-link-text-seven": "UPSSSC PET 2026",
-  "internal-link-text-eight": "SSC CGL 2026 Online Form",
+  "internal-link-text-one": "SSC MTS FORM Apply Kare",
+  "internal-link-text-two": "SSC CHSL 2026 Online Form",
+  "internal-link-text-three": "SSC CGL 2026 online form",
+  "internal-link-text-four": "IBPS PO 2026 Apply Online",
+  "internal-link-text-five": "MP Forest Guard Recruitment 2026 Online Form",
+  "internal-link-text-six": "Punjab Police Constable 2026 Online Form",
+  
 
-  "internal-link-one": "",
-  "internal-link-two": "",
-  "internal-link-three": "",
-  "internal-link-four": "",
-  "internal-link-five": "",
-  "internal-link-six": "",
-  "internal-link-seven": "",
-  "internal-link-eight": "",
-  "internal-link-nine": "",
-  "internal-link-ten": "",
 
+
+
+ 
+
+  "internal-link-one": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?job=ssc-mts-2026",
+  "internal-link-two": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?job=ssc-chsl-2026",
+  "internal-link-three": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?job=ssc-cgl-2026",
+  "internal-link-four": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?job=ibps-po-2026",
+  "internal-link-five": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?type=dataone&job=mp-forest-guard-recruitment-2026-online-form",
+  "internal-link-six": "https://www.sarkarinetworker.com/page/latesjob/dynamic/post.html?type=data&job=punjab-police-constable-2026",
+ 
   "selection-method-one": "CBT Exam",
   "selection-method-two": "Interview",
   "selection-method-three": "Document Verification",
