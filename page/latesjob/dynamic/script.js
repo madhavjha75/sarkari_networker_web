@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const jsonMap = {
     data: "data.json",
     dataone: "data-one.json",
-    datatwo: "data-two.json"
+    datatwo: "data-two.json",
+    datathree: "data-three.json"
   };
 
   // 🔥 सभी JSON files
