@@ -42,11 +42,11 @@
   "maximum-age": "37–55 Years (Post wise varies)",
   "age-relation": "Reserved categories ke liye age relaxation government rules ke according diya jayega",
 
-  "gen": "As per notification",
-  "obc": "As per notification",
-  "sc": "As per notification",
-  "st": "As per notification",
-  "ews": "As per notification",
+  "gen": "",
+  "obc": "",
+  "sc": "",
+  "st": "",
+  "ews": "",
 
   "total-vacancy": "23",
 
@@ -213,11 +213,11 @@
   "maximum-age": "30 Years",
   "age-relation": "Age relaxation SC/ST/OBC candidates ke liye RBI rules ke according applicable hai",
 
-  "gen": "As per official notification",
-  "obc": "As per official notification",
-  "sc": "As per official notification",
-  "st": "As per official notification",
-  "ews": "As per official notification",
+  "gen": "As pe",
+  "obc": "As pe",
+  "sc": "As per ",
+  "st": "As",
+  "ews": "",
 
   "total-vacancy": "21",
 
@@ -593,10 +593,10 @@
   "maximum-age": "As per NVS rules",
   "age-relation": "Age criteria as per teaching norms",
 
-  "gen": "As per panel",
-  "obc": "As per panel",
-  "sc": "As per panel",
-  "st": "As per panel",
+  "gen": "As per ",
+  "obc": "As per ",
+  "sc": "As per ",
+  "st": "As per ",
   "ews": "As per panel",
 
   "total-vacancy": "Not fixed (panel preparation)",
@@ -782,11 +782,11 @@
   "maximum-age": "40 Years",
   "age-relation": "Age relaxation SC/ST/OBC categories ke liye applicable hai as per JKSSB rules",
 
-  "gen": "As per official ",
-  "obc": "As per official ",
-  "sc": "As per official ",
-  "st": "As per official ",
-  "ews": "As per official ",
+  "gen": "As per  ",
+  "obc": "As per ",
+  "sc": "As p ",
+  "st": "As pe",
+  "ews": "As p ",
 
   "total-vacancy": "146 Posts (Previous cycle reference) :contentReference[oaicite:2]{index=2}",
 
