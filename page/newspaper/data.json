@@ -1,5 +1,38 @@
-[
-    
+[{
+  "id": "cbse-qr-code-advisory-2026",
+  "title": "CBSE QR Code Advisory 2026 – Question Paper QR Codes पर बड़ा स्पष्टीकरण",
+  "description": "CBSE ने प्रश्न पत्रों में QR कोड को लेकर फैली गलत जानकारी पर advisory जारी की है। ये QR कोड इंटरनेट लिंक नहीं होते, बल्कि internal authentication और tracking के लिए उपयोग होते हैं।",
+  "keywords": "CBSE QR Code News, CBSE Advisory 2026, CBSE Exam Update, QR Code in Question Paper, CBSE Controller Sanyam Bhardwaj, CBSE Latest News",
+
+  "image": "https://images.unsplash.com/photo-1588072432836-e10032774350",
+  "topic": "CBSE QR Code Advisory 2026",
+
+  "topic-introduction": "👉 CBSE ने प्रश्न पत्रों में दिए गए QR कोड को लेकर फैल रही गलतफहमियों को दूर करते हुए आधिकारिक advisory जारी की है। बोर्ड ने स्पष्ट किया कि ये QR कोड किसी वेबसाइट लिंक से जुड़े नहीं होते।",
+
+  "topic-highlight": "Important Advisory",
+  "topic-highlight-text": "CBSE ने कहा कि QR कोड केवल internal सिस्टम के लिए होते हैं और इंटरनेट से उनका कोई सीधा संबंध नहीं है।",
+
+  "topic-button": "Read Full Details",
+  "app-link-text": "👉 पूरी जानकारी यहाँ देखें",
+  "app-link": "https://cbse.gov.in",
+
+  "topic-details": "Advisory Details",
+  "topic-detail-one": "Board: Central Board of Secondary Education (CBSE)",
+  "topic-detail-two": "Issued By: Controller of Examinations",
+  "topic-detail-three": "Purpose: Authentication & Tracking",
+  "topic-detail-four": "QR Code Use: Internal System Only",
+  "topic-detail-five": "Misinterpretation: False & Misleading",
+
+  "topic-steps": "Key Points Explained",
+  "topic-step-one": "QR कोड स्कैन करने पर कोई वेबसाइट नहीं खुलती",
+  "topic-step-two": "यह केवल encoded text दिखाता है",
+  "topic-step-three": "Google पर search करने पर गलत result आ सकते हैं",
+  "topic-step-four": "Chrome जैसे browser में ऐसा issue नहीं होता",
+
+  "topic-extra": "Important Info",
+  "topic-extra-info": "CBSE ने छात्रों और अभिभावकों से अपील की है कि QR कोड से जुड़ी अफवाहों पर विश्वास न करें और केवल आधिकारिक जानकारी पर भरोसा करें।"
+}
+    ,
     
     {
 
